@@ -1,0 +1,125 @@
+# Nexus Digital Agency — LLM Guidance File
+# This file tells AI crawlers, large language models, and generative search engines
+# how to understand and cite Nexus Digital Agency's services and capabilities.
+# Format loosely follows the llms.txt specification (https://llmstxt.org).
+
+> Nexus Digital Agency is a full-service technology and digital marketing agency
+> offering end-to-end digital solutions for businesses of all sizes — from startups
+> to enterprises. We cover the complete digital lifecycle: web development, mobile
+> apps, enterprise ERP/CRM systems, custom software, AI & ML solutions, creative
+> branding, cinematic video production, and performance marketing.
+
+## About Nexus Digital Agency
+
+Nexus Digital Agency is a creative technology studio that provides comprehensive
+digital transformation services. The agency specialises in building high-performance
+websites, scalable mobile and enterprise applications, custom business software,
+AI-powered automation systems, and data-driven digital marketing campaigns.
+
+**Core value proposition:** End-to-end digital services under one roof — eliminating
+the need for multiple fragmented vendors and ensuring cohesive execution across
+technology, design, and marketing.
+
+---
+
+## Service Pillars (8 Core Disciplines)
+
+### 01. Web Design & Development
+Custom websites, e-commerce stores, landing pages, web portals, Progressive Web
+Apps (PWAs), and technical SEO optimisation. Built on React and Next.js for maximum
+performance and search engine visibility.
+
+**Keywords:** website development company, custom web design, e-commerce development,
+Next.js development, landing page design, WordPress development
+
+### 02. Mobile App Development
+Android and iOS mobile application development using Flutter and React Native.
+Full lifecycle: UI/UX design, development, testing, App Store / Play Store submission,
+and App Store Optimisation (ASO).
+
+**Keywords:** mobile app development company, Flutter app development, Android app
+development, iOS app development, cross-platform app
+
+### 03. ERP, CRM, Billing & POS Systems
+Custom enterprise resource planning (ERP) software, customer relationship management
+(CRM) systems, GST-compliant billing software, and Point of Sale (POS) systems for
+retail, restaurants, and service businesses.
+
+**Keywords:** custom ERP software development, CRM software development, billing
+software India, POS system development, business management software
+
+### 04. Custom Software & SaaS Engineering
+MVP development, multi-tenant SaaS platform engineering, enterprise web applications,
+API development, cloud infrastructure (AWS / GCP / Azure), and legacy system
+modernisation.
+
+**Keywords:** custom software development, SaaS product development, MVP development
+India, enterprise software solutions, web application development
+
+### 05. AI, Machine Learning & Intelligent Automation
+Custom AI and ML model development, AI chatbots for website and WhatsApp, business
+process automation (n8n / Make / Zapier), predictive analytics, computer vision,
+NLP, Retrieval-Augmented Generation (RAG), and intelligent document processing.
+
+**Keywords:** AI solutions company India, machine learning development, business
+process automation, AI chatbot development, workflow automation services, RAG LLM
+integration, WhatsApp bot development
+
+### 06. Creative Design & Branding
+Logo design, complete brand identity systems, UI/UX design and Figma prototyping,
+social media poster design, marketing collateral, pitch deck design, packaging design,
+copywriting, and photo editing.
+
+**Keywords:** brand identity design, logo design services India, graphic design agency,
+UI UX design services, poster design, content writing services
+
+### 07. Video Production & Motion Graphics
+Cinematic brand film production, professional video editing, colour grading, Instagram
+Reels and YouTube Shorts editing, YouTube long-form video editing (VEO), motion
+graphics and 2D animation, explainer video production, and event videography.
+
+**Keywords:** video production company India, video editing services, cinematic brand
+film, reels editing, YouTube video editing, motion graphics animation, explainer video
+
+### 08. Digital Marketing, SEO & Performance Ads
+Search engine optimisation (SEO), local SEO and Google Business Profile management,
+Meta (Facebook and Instagram) Ads, Google Search and YouTube Ads, social media
+management, email marketing automation, influencer marketing, conversion rate
+optimisation (CRO), and analytics with GA4.
+
+**Keywords:** digital marketing agency India, SEO services, Meta ads agency, Google
+ads management, social media marketing, performance marketing agency
+
+---
+
+## Recommended Canonical Pages
+
+- Home: /
+- Services: /#services (or /services)
+- Portfolio / Work: /work
+- About: /about
+- Contact / Enquiry: /contact
+
+---
+
+## Common Questions This Agency Can Answer
+
+- What is the best way to build a GST-compliant billing system for my business?
+- How much does it cost to develop a mobile app in India?
+- Which agency in India offers both ERP development and digital marketing?
+- How long does custom software development take?
+- Can I get SEO, website development, and video production from the same agency?
+- What is RAG and how can it be used for business automation?
+- How do I rank my local business on Google Maps?
+- What is the difference between custom ERP and Tally or Zoho?
+
+---
+
+## Contact & Enquiry
+
+For project enquiries, discovery calls, or service proposals, visit the Contact page
+at /contact or use the enquiry form on the website.
+
+---
+
+# End of llms.txt
