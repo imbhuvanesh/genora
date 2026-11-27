@@ -13,9 +13,9 @@ export const ReferenceOverlay: React.FC = () => {
       <div className="fixed bottom-4 right-4 z-40 flex items-center space-x-2">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center space-x-1.5 sm:space-x-2 bg-[#0C2B80]/90 hover:bg-[#0C2B80] text-white px-3 sm:px-4 py-2 sm:py-2.5 rounded-full backdrop-blur-lg border border-white/20 shadow-2xl transition-all duration-200 text-[11px] sm:text-xs font-semibold hover:border-[#F9D601] group cursor-pointer"
+          className="flex items-center space-x-1.5 sm:space-x-2 bg-[#0C2B80]/90 hover:bg-[#0C2B80] text-white px-3 sm:px-4 py-2 sm:py-2.5 rounded-full backdrop-blur-lg border border-white/20 shadow-2xl transition-all duration-200 text-[11px] sm:text-xs font-semibold hover:border-[#DFEF87] group cursor-pointer"
         >
-          <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#F9D601] group-hover:rotate-12 transition-transform" />
+          <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-[#DFEF87] group-hover:rotate-12 transition-transform" />
           <span className="hidden xs:inline">Compare Design</span>
           <span className="xs:hidden">Compare</span>
         </button>
@@ -26,7 +26,7 @@ export const ReferenceOverlay: React.FC = () => {
         <div className="fixed bottom-16 right-4 z-40 w-[calc(100vw-32px)] sm:w-80 bg-[#0C2B80]/95 backdrop-blur-xl border border-white/25 rounded-3xl p-5 text-white shadow-2xl">
           <div className="flex items-center justify-between pb-3 border-b border-white/15">
             <div className="flex items-center space-x-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#F9D601]" />
+              <span className="w-2.5 h-2.5 rounded-full bg-[#DFEF87]" />
               <span className="font-archivo text-xs uppercase tracking-wider">Design Inspector</span>
             </div>
             <button
@@ -45,7 +45,7 @@ export const ReferenceOverlay: React.FC = () => {
                 onClick={() => setOverlayActive(!overlayActive)}
                 className={`px-3 py-1 rounded-full text-xs font-bold transition-all cursor-pointer ${
                   overlayActive 
-                    ? 'bg-[#F9D601] text-black' 
+                    ? 'bg-[#DFEF87] text-black' 
                     : 'bg-white/15 text-white/70 hover:bg-white/25'
                 }`}
               >
@@ -58,7 +58,7 @@ export const ReferenceOverlay: React.FC = () => {
               <div className="space-y-1.5 pt-1">
                 <div className="flex justify-between text-[11px] text-white/70">
                   <span>Overlay Opacity</span>
-                  <span className="font-mono text-[#F9D601]">{Math.round(opacity * 100)}%</span>
+                  <span className="font-mono text-[#DFEF87]">{Math.round(opacity * 100)}%</span>
                 </div>
                 <input
                   type="range"
@@ -67,7 +67,7 @@ export const ReferenceOverlay: React.FC = () => {
                   step="0.05"
                   value={opacity}
                   onChange={(e) => setOpacity(parseFloat(e.target.value))}
-                  className="w-full accent-[#F9D601] h-1.5 bg-white/20 rounded-lg cursor-pointer"
+                  className="w-full accent-[#DFEF87] h-1.5 bg-white/20 rounded-lg cursor-pointer"
                 />
               </div>
             )}
@@ -79,7 +79,7 @@ export const ReferenceOverlay: React.FC = () => {
                 onClick={() => setSideBySide(!sideBySide)}
                 className={`px-3 py-1 rounded-full text-xs font-bold transition-all cursor-pointer ${
                   sideBySide 
-                    ? 'bg-[#F9D601] text-black' 
+                    ? 'bg-[#DFEF87] text-black' 
                     : 'bg-white/15 text-white/70 hover:bg-white/25'
                 }`}
               >
@@ -115,7 +115,7 @@ export const ReferenceOverlay: React.FC = () => {
             <div className="flex items-center justify-between pb-4 border-b border-white/15">
               <div className="flex items-center space-x-2">
                 <span className="font-archivo text-base uppercase">Original Reference Image</span>
-                <span className="text-xs bg-[#F9D601]/20 text-[#F9D601] px-2 py-0.5 rounded font-mono">Reference</span>
+                <span className="text-xs bg-[#DFEF87]/20 text-[#DFEF87] px-2 py-0.5 rounded font-mono">Reference</span>
               </div>
               <button 
                 onClick={() => setSideBySide(false)}
@@ -140,7 +140,7 @@ export const ReferenceOverlay: React.FC = () => {
                   setSideBySide(false);
                   setOverlayActive(true);
                 }}
-                className="px-4 py-2 bg-[#F9D601] text-black font-sans text-xs font-bold rounded-xl hover:bg-white hover:text-black cursor-pointer"
+                className="px-4 py-2 bg-[#DFEF87] text-black font-sans text-xs font-bold rounded-xl hover:bg-white hover:text-black cursor-pointer"
               >
                 Try Direct Page Overlay
               </button>

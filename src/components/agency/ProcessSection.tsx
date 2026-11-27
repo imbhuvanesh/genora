@@ -78,10 +78,10 @@ export const ProcessSection: React.FC = () => {
                     {/* Top Header: Step Number & Duration Tag */}
                     <div className="flex items-center justify-between mb-5">
                       <div className="w-10 h-10 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center shadow-md">
-                        <Icon className="w-5 h-5 stroke-[2] text-[#F9D601]" />
+                        <Icon className="w-5 h-5 stroke-[2] text-[#DFEF87]" />
                       </div>
                       <div className="flex items-center space-x-1.5">
-                        <span className="text-[10px] font-bold uppercase tracking-wider bg-[#F9D601] text-black px-2.5 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
+                        <span className="text-[10px] font-bold uppercase tracking-wider bg-[#DFEF87] text-black px-2.5 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
                           {step.duration}
                         </span>
                         <span className="font-sans font-bold text-xs text-black/40">

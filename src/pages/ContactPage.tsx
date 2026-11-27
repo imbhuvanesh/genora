@@ -20,16 +20,16 @@ export const ContactPage: React.FC = () => {
       <div className="w-full max-w-[1260px] bg-[#3670FF] hero-grid rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-6 sm:p-10 md:p-12 text-white text-center shadow-[0_25px_80px_rgba(54,112,255,0.35)] border border-white/20 my-2 sm:my-3 relative overflow-hidden">
         {/* Hand-Drawn Container Corners */}
         <div className="absolute top-3 left-4 z-20 opacity-70 pointer-events-none">
-          <DoodleCorner position="top-left" color="#F9D601" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <DoodleCorner position="top-left" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
         </div>
         <div className="absolute top-3 right-4 z-20 opacity-70 pointer-events-none">
-          <DoodleCorner position="top-right" color="#F9D601" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <DoodleCorner position="top-right" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
         </div>
         
         {/* Ambient Badge */}
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#F9D601] text-xs font-bold uppercase tracking-wider mb-4">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#DFEF87] text-xs font-bold uppercase tracking-wider mb-4">
           <span>Direct Partner Access</span>
-          <DoodleStar className="w-3.5 h-3.5 text-[#F9D601]" />
+          <DoodleStar className="w-3.5 h-3.5 text-[#DFEF87]" />
         </div>
 
         <MaskedLineReveal
@@ -45,7 +45,7 @@ export const ContactPage: React.FC = () => {
           >
             Tell us about your project vision, timeline, and goals. Our senior partners respond within 2 hours with a comprehensive audit and project scope.
           </FadeUpParagraph>
-          <DoodleUnderline className="w-56 h-4 text-[#F9D601] mx-auto mt-3" />
+          <DoodleUnderline className="w-56 h-4 text-[#DFEF87] mx-auto mt-3" />
         </div>
 
         {/* 3 Direct Reach Pillars */}
@@ -69,7 +69,7 @@ export const ContactPage: React.FC = () => {
             href="mailto:hello@genora.agency"
             className="bg-white/15 hover:bg-white/25 border border-white/20 rounded-2xl p-4 flex items-center space-x-3 transition-colors cursor-pointer"
           >
-            <div className="w-10 h-10 rounded-xl bg-[#F9D601] text-black flex items-center justify-center shrink-0 shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-[#DFEF87] text-black flex items-center justify-center shrink-0 shadow-sm">
               <Mail className="w-5 h-5" />
             </div>
             <div>
@@ -80,11 +80,11 @@ export const ContactPage: React.FC = () => {
 
           <div className="bg-white/15 border border-white/20 rounded-2xl p-4 flex items-center space-x-3">
             <div className="w-10 h-10 rounded-xl bg-white/20 text-white flex items-center justify-center shrink-0">
-              <Clock className="w-5 h-5 text-[#F9D601]" />
+              <Clock className="w-5 h-5 text-[#DFEF87]" />
             </div>
             <div>
               <div className="text-[11px] text-white/70 uppercase">Response Time</div>
-              <div className="text-sm font-bold text-[#F9D601]">&lt; 2 Hours</div>
+              <div className="text-sm font-bold text-[#DFEF87]">&lt; 2 Hours</div>
             </div>
           </div>
         </div>
@@ -95,8 +95,8 @@ export const ContactPage: React.FC = () => {
         <ContactSection preselectedService="Web Development" />
       </div>
 
-      {/* Trust & Guarantee Box (Golden #F9D601) */}
-      <div className="w-full max-w-[1260px] bg-[#F9D601] rounded-[36px] sm:rounded-[48px] p-8 sm:p-10 border border-[#0C2B80]/[0.12] shadow-[0_12px_40px_rgba(249,214,1,0.25)] my-2 sm:my-3 text-black">
+      {/* Trust & Guarantee Box (Golden #DFEF87) */}
+      <div className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] p-8 sm:p-10 border border-[#0C2B80]/[0.12] shadow-[0_12px_40px_rgba(223, 239, 135,0.25)] my-2 sm:my-3 text-black">
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
           <div className="flex items-start space-x-3.5">
             <div className="w-10 h-10 rounded-xl bg-white text-[#3670FF] flex items-center justify-center shrink-0 shadow-sm">

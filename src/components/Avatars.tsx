@@ -25,7 +25,7 @@ export const DesignerAvatar: React.FC<{ size?: number; className?: string }> = (
         {/* Torso / Shoulders */}
         <path d="M22 84 C24 64, 38 58, 50 58 C62 58, 76 64, 78 84 Z" fill="#FFFFFF" />
         {/* Creative Accent Sparkle */}
-        <path d="M78 24 L80 29 L85 31 L80 33 L78 38 L76 33 L71 31 L76 29 Z" fill="#F9D601" />
+        <path d="M78 24 L80 29 L85 31 L80 33 L78 38 L76 33 L71 31 L76 29 Z" fill="#DFEF87" />
       </svg>
     </div>
   );
@@ -35,7 +35,7 @@ export const DesignerAvatar: React.FC<{ size?: number; className?: string }> = (
 export const DeveloperAvatar: React.FC<{ size?: number; className?: string }> = ({ size = 64, className = '' }) => {
   return (
     <div 
-      className={`rounded-full overflow-hidden bg-gradient-to-tr from-[#0C2B80] via-[#3670FF] to-[#F9D601] flex items-center justify-center shadow-lg border-2 border-white/80 ${className}`}
+      className={`rounded-full overflow-hidden bg-gradient-to-tr from-[#0C2B80] via-[#3670FF] to-[#DFEF87] flex items-center justify-center shadow-lg border-2 border-white/80 ${className}`}
       style={{ width: size, height: size }}
     >
       <svg 
@@ -49,8 +49,8 @@ export const DeveloperAvatar: React.FC<{ size?: number; className?: string }> = 
         <circle cx="50" cy="38" r="18" fill="#FFFFFF" />
         {/* Modern Cap / Headset */}
         <path d="M30 36 C30 24, 70 24, 70 36" stroke="#0C2B80" strokeWidth="4" strokeLinecap="round" />
-        <circle cx="28" cy="38" r="4" fill="#F9D601" />
-        <circle cx="72" cy="38" r="4" fill="#F9D601" />
+        <circle cx="28" cy="38" r="4" fill="#DFEF87" />
+        <circle cx="72" cy="38" r="4" fill="#DFEF87" />
         {/* Eyes */}
         <circle cx="43" cy="38" r="2.5" fill="#0C2B80" />
         <circle cx="57" cy="38" r="2.5" fill="#0C2B80" />

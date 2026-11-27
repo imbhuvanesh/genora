@@ -114,11 +114,11 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                     {/* Top Header: Icon + Popular Pill Badge */}
                     <div className="flex items-center justify-between mb-5">
                       <div className="w-11 h-11 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center shadow-md">
-                        <IconComponent className="w-5 h-5 stroke-[2] text-[#F9D601]" />
+                        <IconComponent className="w-5 h-5 stroke-[2] text-[#DFEF87]" />
                       </div>
                       <div className="flex items-center space-x-2">
                         {service.popularTag && (
-                          <span className="text-[10px] font-bold uppercase tracking-wider bg-[#F9D601] text-black px-2.5 py-1 rounded-full shadow-sm">
+                          <span className="text-[10px] font-bold uppercase tracking-wider bg-[#DFEF87] text-black px-2.5 py-1 rounded-full shadow-sm">
                             {service.popularTag}
                           </span>
                         )}
@@ -229,7 +229,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                   setActiveServiceModal(null);
                   onSelectService(title);
                 }}
-                className="px-5 py-2.5 bg-[#F9D601] hover:bg-[#3670FF] text-black hover:text-white font-sans text-xs font-bold rounded-full transition-colors shadow-md flex items-center space-x-1.5"
+                className="px-5 py-2.5 bg-[#DFEF87] hover:bg-[#3670FF] text-black hover:text-white font-sans text-xs font-bold rounded-full transition-colors shadow-md flex items-center space-x-1.5"
               >
                 <span>Request {activeServiceModal.title}</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />

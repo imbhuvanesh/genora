@@ -34,7 +34,7 @@ export const FloatingBackToTop: React.FC = () => {
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.94 }}
           transition={{ duration: shouldReduceMotion ? 0 : 0.3, ease: [0.19, 1, 0.22, 1] }}
-          className="fixed bottom-6 right-6 z-50 group flex items-center justify-center w-12 h-12 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#F9D601]/50 rounded-full bg-[#0C2B80] hover:bg-[#F9D601] text-[#F9D601] hover:text-black border border-white/20 hover:border-[#F9D601] shadow-[0_8px_30px_rgba(12,43,128,0.4)] hover:shadow-[0_8px_30px_rgba(249,214,1,0.5)] transition-all duration-300"
+          className="fixed bottom-6 right-6 z-50 group flex items-center justify-center w-12 h-12 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#DFEF87]/50 rounded-full bg-[#0C2B80] hover:bg-[#DFEF87] text-[#DFEF87] hover:text-black border border-white/20 hover:border-[#DFEF87] shadow-[0_8px_30px_rgba(12,43,128,0.4)] hover:shadow-[0_8px_30px_rgba(223, 239, 135,0.5)] transition-all duration-300"
         >
           <ArrowUp className="w-5 h-5 transition-transform duration-200 group-hover:-translate-y-0.5" />
           

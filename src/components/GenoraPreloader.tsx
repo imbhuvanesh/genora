@@ -118,7 +118,7 @@ export const GenoraPreloader: React.FC<GenoraPreloaderProps> = ({ onComplete }) 
             {/*
               CUSTOM VECTOR ORGANIC BUBBLE TYPOGRAPHY: GENORA
               Inspired by chunky 70s psych-rock bubble lettering.
-              Color: Radiant Golden #F9D601 on Ultramarine Blue #3670FF background.
+              Color: Radiant Golden #DFEF87 on Ultramarine Blue #3670FF background.
               Directly visible with fluid stretching and organic settling.
             */}
             <svg
@@ -131,7 +131,7 @@ export const GenoraPreloader: React.FC<GenoraPreloaderProps> = ({ onComplete }) 
                 {/* Radiant Golden Gradient from Reference Palette */}
                 <linearGradient id="genoraGolden" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#FFF275" />
-                  <stop offset="50%" stopColor="#F9D601" />
+                  <stop offset="50%" stopColor="#DFEF87" />
                   <stop offset="100%" stopColor="#E5BE00" />
                 </linearGradient>
               </defs>

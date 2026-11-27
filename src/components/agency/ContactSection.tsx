@@ -70,7 +70,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 pb-5 border-b border-white/20">
           <div className="max-w-2xl">
             <div className="flex items-center space-x-3 mb-2.5">
-              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#F9D601] font-bold text-xs tracking-wider uppercase">
+              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#DFEF87] font-bold text-xs tracking-wider uppercase">
                 <span>Let's Collaborate</span>
               </FadeUpText>
             </div>
@@ -106,7 +106,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
               {/* Card 1: Fast Response Guarantee */}
               <div className="bg-[#EFEFEF] rounded-[28px] p-6 sm:p-7 border border-[#3670FF]/10 shadow-sm">
                 <div className="w-10 h-10 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center mb-3.5 shadow-md">
-                  <Clock className="w-5 h-5 text-[#F9D601]" />
+                  <Clock className="w-5 h-5 text-[#DFEF87]" />
                 </div>
                 <h3 className="font-sans font-bold text-lg sm:text-xl text-black">
                   Fast-Track Discovery
@@ -148,7 +148,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
               >
                 <div className="flex items-center space-x-3.5">
                   <div className="w-10 h-10 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center shadow-md">
-                    <Mail className="w-5 h-5 stroke-[2] text-[#F9D601]" />
+                    <Mail className="w-5 h-5 stroke-[2] text-[#DFEF87]" />
                   </div>
                   <div>
                     <div className="text-[10.5px] font-bold uppercase tracking-wider text-black/60 font-sans">Email Directly</div>
@@ -166,7 +166,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
             <div className="lg:col-span-7 bg-[#EFEFEF] rounded-[28px] sm:rounded-[32px] p-6 sm:p-8 border border-[#3670FF]/10 shadow-sm">
               {submitted ? (
                 <div className="py-12 text-center flex flex-col items-center">
-                  <div className="w-16 h-16 rounded-full bg-[#F9D601] text-black flex items-center justify-center mb-4 shadow-md">
+                  <div className="w-16 h-16 rounded-full bg-[#DFEF87] text-black flex items-center justify-center mb-4 shadow-md">
                     <CheckCircle className="w-8 h-8" />
                   </div>
                   <h3 className="font-sans font-bold text-2xl text-black">
@@ -288,7 +288,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#F9D601] hover:bg-white text-black hover:text-black font-sans font-bold text-xs sm:text-sm py-3.5 rounded-full shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] transition-all hover:scale-[1.008] active:scale-98 flex items-center justify-center space-x-2 mt-2 cursor-pointer"
+                    className="w-full bg-[#DFEF87] hover:bg-white text-black hover:text-black font-sans font-bold text-xs sm:text-sm py-3.5 rounded-full shadow-[0_8px_25px_rgba(223, 239, 135,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] transition-all hover:scale-[1.008] active:scale-98 flex items-center justify-center space-x-2 mt-2 cursor-pointer"
                   >
                     {isSubmitting ? (
                       <span>Sending Your Request...</span>

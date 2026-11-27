@@ -402,7 +402,7 @@ export const TabContentToggle: React.FC = () => {
                       <div className="w-9 h-9 rounded-xl bg-white text-[#3670FF] flex items-center justify-center shadow-sm">
                         <Icon className="w-4 h-4" />
                       </div>
-                      <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-[#F9D601] text-black">
+                      <span className="text-[10px] font-mono font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-[#DFEF87] text-black">
                         {feat.metric}
                       </span>
                     </div>

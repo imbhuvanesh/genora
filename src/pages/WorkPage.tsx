@@ -33,7 +33,7 @@ export const WorkPage: React.FC = () => {
         {/* Ambient Badge */}
         <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-[#3670FF]/10 border border-[#3670FF]/20 text-[#3670FF] text-xs font-bold uppercase tracking-wider mb-4">
           <span>Case Studies &amp; Delivered Systems</span>
-          <DoodleStar className="w-3.5 h-3.5 text-[#F9D601]" />
+          <DoodleStar className="w-3.5 h-3.5 text-[#DFEF87]" />
         </div>
 
         <MaskedLineReveal
@@ -49,7 +49,7 @@ export const WorkPage: React.FC = () => {
           >
             Explore our portfolio of high-performing web applications, mobile platforms, visual brand identities, and profitable paid acquisition funnels.
           </FadeUpParagraph>
-          <DoodleUnderline className="w-56 h-4 text-[#F9D601] mx-auto mt-3" />
+          <DoodleUnderline className="w-56 h-4 text-[#DFEF87] mx-auto mt-3" />
         </div>
 
         {/* 3 Metric Pills */}
@@ -63,7 +63,7 @@ export const WorkPage: React.FC = () => {
             <span className="text-xs text-black/75 font-sans mt-0.5">On-Time Sprint Delivery</span>
           </div>
           <div className="bg-[#EFEFEF] border border-[#3670FF]/10 rounded-2xl p-4 flex flex-col items-center">
-            <span className="text-2xl sm:text-3xl font-extrabold text-[#F9D601]">5.0 ★</span>
+            <span className="text-2xl sm:text-3xl font-extrabold text-[#DFEF87]">5.0 ★</span>
             <span className="text-xs text-black/75 font-sans mt-0.5">Verified Client Rating</span>
           </div>
         </div>
@@ -74,8 +74,8 @@ export const WorkPage: React.FC = () => {
         <PortfolioSection />
       </div>
 
-      {/* 4-Stage Agile Delivery Process (Golden #F9D601) */}
-      <div className="w-full max-w-[1260px] bg-[#F9D601] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(249,214,1,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
+      {/* 4-Stage Agile Delivery Process (Golden #DFEF87) */}
+      <div className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
         <ProcessSection />
       </div>
 
@@ -89,7 +89,7 @@ export const WorkPage: React.FC = () => {
         </p>
         <button
           onClick={() => navigate('/contact')}
-          className="px-7 py-3.5 rounded-full bg-[#F9D601] text-black hover:bg-white hover:text-black font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
+          className="px-7 py-3.5 rounded-full bg-[#DFEF87] text-black hover:bg-white hover:text-black font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
         >
           <span>Kick Off Your Project</span>
           <ArrowUpRight className="w-4 h-4" />

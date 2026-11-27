@@ -56,7 +56,7 @@ export const ProductsSection: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 pb-4 border-b border-white/20">
           <div className="max-w-2xl">
             <div className="flex items-center space-x-3 mb-3">
-              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#F9D601] font-bold text-xs tracking-wider uppercase">
+              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#DFEF87] font-bold text-xs tracking-wider uppercase">
                 <Package className="w-3.5 h-3.5" />
                 <span>Proprietary Toolkits &amp; Frameworks</span>
               </FadeUpText>
@@ -87,7 +87,7 @@ export const ProductsSection: React.FC = () => {
               onClick={() => setActiveCategory(cat)}
               className={`px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-sans tracking-wide transition-all cursor-pointer ${
                 activeCategory === cat
-                  ? 'bg-[#F9D601] text-black font-bold shadow-md scale-[1.02]'
+                  ? 'bg-[#DFEF87] text-black font-bold shadow-md scale-[1.02]'
                   : 'bg-white/15 text-white/90 hover:bg-white/25 font-medium'
               }`}
             >
@@ -132,7 +132,7 @@ export const ProductsSection: React.FC = () => {
                       <div className="w-12 h-12 rounded-2xl bg-[#3670FF]/10 text-[#3670FF] flex items-center justify-center shadow-sm">
                         <Icon className="w-6 h-6" />
                       </div>
-                      <span className="text-[10.5px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#F9D601] text-black border border-[#0C2B80]/[0.08]">
+                      <span className="text-[10.5px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#DFEF87] text-black border border-[#0C2B80]/[0.08]">
                         {product.badge}
                       </span>
                     </div>
@@ -246,7 +246,7 @@ export const ProductsSection: React.FC = () => {
               <div className="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-[#3670FF] font-bold mb-2">
                 <span>{selectedProductModal.category}</span>
                 <span>•</span>
-                <span className="px-2 py-0.5 rounded-full bg-[#F9D601] text-black">
+                <span className="px-2 py-0.5 rounded-full bg-[#DFEF87] text-black">
                   {selectedProductModal.badge}
                 </span>
               </div>
@@ -305,7 +305,7 @@ export const ProductsSection: React.FC = () => {
                     setSelectedProductModal(null);
                     handleInquire(prod);
                   }}
-                  className="bg-[#F9D601] hover:bg-[#3670FF] text-black hover:text-white px-6 py-2.5 rounded-xl text-xs font-bold tracking-tight flex items-center space-x-1.5 transition-all shadow-md cursor-pointer"
+                  className="bg-[#DFEF87] hover:bg-[#3670FF] text-black hover:text-white px-6 py-2.5 rounded-xl text-xs font-bold tracking-tight flex items-center space-x-1.5 transition-all shadow-md cursor-pointer"
                 >
                   <span>Inquire for Deployment</span>
                   <ExternalLink className="w-3.5 h-3.5" />
