@@ -4,7 +4,7 @@
 
 :root {
   /* Global Reference Palette: Golden, Ultramarine Blue, Bright Gray (ZERO BLACK) */
-  --color-golden: #DFEF87;
+  --color-golden: #39ff14;
   --color-ultramarine: #3670FF;
   --color-ultramarine-dark: #2256DB;
   --color-bright-gray: #EFEFEF;
@@ -28,7 +28,7 @@
     color: #000000;
   }
   ::selection {
-    background-color: var(--color-golden, #DFEF87);
+    background-color: var(--color-golden, #39ff14);
     color: #000000;
   }
 }
@@ -141,9 +141,9 @@
 }
 
 .tab.active {
-  background: #DFEF87;
+  background: #39ff14;
   color: #000000;
-  box-shadow: 0 8px 24px -4px rgba(223, 239, 135, 0.45);
+  box-shadow: 0 8px 24px -4px rgba(57, 255, 20, 0.45);
 }
 
 .content-wrapper {

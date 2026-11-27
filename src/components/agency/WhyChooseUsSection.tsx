@@ -85,9 +85,9 @@ export const WhyChooseUsSection: React.FC = () => {
                     {/* Top: Icon + Metric Tag */}
                     <div className="flex items-center justify-between mb-5">
                       <div className="w-11 h-11 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center shadow-md">
-                        <Icon className="w-5 h-5 stroke-[2] text-[#DFEF87]" />
+                        <Icon className="w-5 h-5 stroke-[2] text-[#39ff14]" />
                       </div>
-                      <span className="font-sans text-[11px] font-bold uppercase tracking-wider bg-[#DFEF87] text-black px-3 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
+                      <span className="font-sans text-[11px] font-bold uppercase tracking-wider bg-[#39ff14] text-black px-3 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
                         {item.metric}
                       </span>
                     </div>

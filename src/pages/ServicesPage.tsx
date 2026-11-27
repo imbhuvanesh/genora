@@ -29,16 +29,16 @@ export const ServicesPage: React.FC = () => {
       <div className="w-full max-w-[1260px] bg-[#3670FF] hero-grid rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-6 sm:p-10 md:p-12 text-white text-center shadow-[0_25px_80px_rgba(54,112,255,0.35)] border border-white/20 my-2 sm:my-3 relative overflow-hidden">
         {/* Hand-Drawn Container Corners */}
         <div className="absolute top-3 left-4 z-20 opacity-70 pointer-events-none">
-          <DoodleCorner position="top-left" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <DoodleCorner position="top-left" color="#39ff14" className="w-8 h-8 sm:w-10 sm:h-10" />
         </div>
         <div className="absolute top-3 right-4 z-20 opacity-70 pointer-events-none">
-          <DoodleCorner position="top-right" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <DoodleCorner position="top-right" color="#39ff14" className="w-8 h-8 sm:w-10 sm:h-10" />
         </div>
         
         {/* Ambient Badge */}
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#DFEF87] text-xs font-bold uppercase tracking-wider mb-4">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#39ff14] text-xs font-bold uppercase tracking-wider mb-4">
           <span>Complete Digital Capabilities</span>
-          <DoodleStar className="w-3.5 h-3.5 text-[#DFEF87]" />
+          <DoodleStar className="w-3.5 h-3.5 text-[#39ff14]" />
         </div>
 
         <MaskedLineReveal
@@ -54,7 +54,7 @@ export const ServicesPage: React.FC = () => {
           >
             We provide full-lifecycle digital capabilities across web engineering, mobile apps, ERP &amp; CRM systems, custom software, AI &amp; ML automation, brand design, cinematic video production, and performance marketing — all under one roof.
           </FadeUpParagraph>
-          <DoodleUnderline className="w-56 h-4 text-[#DFEF87] mx-auto mt-3" />
+          <DoodleUnderline className="w-56 h-4 text-[#39ff14] mx-auto mt-3" />
         </div>
 
         {/* 8 Disciplines Pills */}
@@ -76,8 +76,8 @@ export const ServicesPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Main 6 Service Categories Container (Golden #DFEF87 Stacked Card) */}
-      <div className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
+      {/* Main 6 Service Categories Container (Golden #39ff14 Stacked Card) */}
+      <div className="w-full max-w-[1260px] bg-[#39ff14] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(57, 255, 20,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
         <ServicesSection onSelectService={handleSelectService} />
       </div>
 
@@ -101,7 +101,7 @@ export const ServicesPage: React.FC = () => {
         </p>
         <button
           onClick={() => navigate('/contact')}
-          className="px-7 py-3.5 rounded-full bg-[#DFEF87] hover:bg-[#3670FF] text-black hover:text-white font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
+          className="px-7 py-3.5 rounded-full bg-[#39ff14] hover:bg-[#3670FF] text-black hover:text-white font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
         >
           <span>Request Custom Proposal</span>
           <ArrowUpRight className="w-4 h-4" />

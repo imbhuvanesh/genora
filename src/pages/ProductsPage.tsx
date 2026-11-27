@@ -32,7 +32,7 @@ export const ProductsPage: React.FC = () => {
         {/* Ambient Badge */}
         <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-[#3670FF]/10 border border-[#3670FF]/20 text-[#3670FF] text-xs font-bold uppercase tracking-wider mb-4">
           <span>Production-Grade Accelerators</span>
-          <DoodleStar className="w-3.5 h-3.5 text-[#DFEF87]" />
+          <DoodleStar className="w-3.5 h-3.5 text-[#39ff14]" />
         </div>
 
         <MaskedLineReveal
@@ -48,7 +48,7 @@ export const ProductsPage: React.FC = () => {
           >
             Pre-built frameworks, automation engines, and production-tested toolkits engineered to accelerate your launch, cut development cycles by 70%, and scale without friction.
           </FadeUpParagraph>
-          <DoodleUnderline className="w-56 h-4 text-[#DFEF87] mx-auto mt-3" />
+          <DoodleUnderline className="w-56 h-4 text-[#39ff14] mx-auto mt-3" />
         </div>
 
         {/* Highlights Row */}
@@ -62,7 +62,7 @@ export const ProductsPage: React.FC = () => {
             <span>Commercial-Ready Codebase</span>
           </div>
           <div className="flex items-center space-x-1.5 bg-[#EFEFEF] border border-[#3670FF]/10 px-3.5 py-1.5 rounded-full">
-            <DoodleSparkle color="#DFEF87" className="w-3.5 h-3.5" />
+            <DoodleSparkle color="#39ff14" className="w-3.5 h-3.5" />
             <span>Full Developer Handoff</span>
           </div>
         </div>
@@ -76,9 +76,9 @@ export const ProductsPage: React.FC = () => {
       </div>
 
       {/* =========================================================================
-          STACKED CONTAINER 3: CUSTOM REQUIREMENTS CTA (GOLDEN #DFEF87)
+          STACKED CONTAINER 3: CUSTOM REQUIREMENTS CTA (GOLDEN #39ff14)
          ========================================================================= */}
-      <div className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-8 sm:p-10 md:p-12 text-black shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 relative overflow-hidden text-center flex flex-col items-center">
+      <div className="w-full max-w-[1260px] bg-[#39ff14] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-8 sm:p-10 md:p-12 text-black shadow-[0_20px_60px_-15px_rgba(57, 255, 20,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 relative overflow-hidden text-center flex flex-col items-center">
         <div className="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-[#0C2B80]/10 border border-[#0C2B80]/20 text-black text-xs font-bold uppercase tracking-wider mb-3">
           <span>Need Something Custom?</span>
         </div>

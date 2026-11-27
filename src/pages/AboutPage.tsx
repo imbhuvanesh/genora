@@ -26,16 +26,16 @@ export const AboutPage: React.FC = () => {
       <div className="w-full max-w-[1260px] bg-[#3670FF] hero-grid rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-6 sm:p-10 md:p-12 text-white text-center shadow-[0_25px_80px_rgba(54,112,255,0.35)] border border-white/20 my-2 sm:my-3 relative overflow-hidden">
         {/* Hand-Drawn Container Corners */}
         <div className="absolute top-3 left-4 z-20 opacity-70 pointer-events-none">
-          <DoodleCorner position="top-left" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <DoodleCorner position="top-left" color="#39ff14" className="w-8 h-8 sm:w-10 sm:h-10" />
         </div>
         <div className="absolute top-3 right-4 z-20 opacity-70 pointer-events-none">
-          <DoodleCorner position="top-right" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
+          <DoodleCorner position="top-right" color="#39ff14" className="w-8 h-8 sm:w-10 sm:h-10" />
         </div>
 
         {/* Ambient Badge */}
-        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#DFEF87] text-xs font-bold uppercase tracking-wider mb-4">
+        <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/15 border border-white/25 text-[#39ff14] text-xs font-bold uppercase tracking-wider mb-4">
           <span>Our Story &amp; Agency Philosophy</span>
-          <DoodleStar className="w-3.5 h-3.5 text-[#DFEF87]" />
+          <DoodleStar className="w-3.5 h-3.5 text-[#39ff14]" />
         </div>
 
         <MaskedLineReveal
@@ -51,28 +51,28 @@ export const AboutPage: React.FC = () => {
           >
             We are a creative technology and digital marketing agency providing complete digital solutions to businesses, startups and individuals. Our goal is to help brands establish their online presence, improve their digital identity and grow their business.
           </FadeUpParagraph>
-          <DoodleUnderline className="w-64 h-4 text-[#DFEF87] mx-auto mt-3" />
+          <DoodleUnderline className="w-64 h-4 text-[#39ff14] mx-auto mt-3" />
         </div>
 
         {/* Quick Highlights Row */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-6 text-xs sm:text-sm font-sans font-semibold">
           <div className="px-4 py-2 rounded-full bg-white/15 border border-white/20 flex items-center space-x-2">
-            <CheckCircle2 className="w-4 h-4 text-[#DFEF87]" />
+            <CheckCircle2 className="w-4 h-4 text-[#39ff14]" />
             <span>100% Custom Architecture</span>
           </div>
           <div className="px-4 py-2 rounded-full bg-white/15 border border-white/20 flex items-center space-x-2">
-            <CheckCircle2 className="w-4 h-4 text-[#DFEF87]" />
+            <CheckCircle2 className="w-4 h-4 text-[#39ff14]" />
             <span>Direct Partner Access</span>
           </div>
           <div className="px-4 py-2 rounded-full bg-white/15 border border-white/20 flex items-center space-x-2">
-            <CheckCircle2 className="w-4 h-4 text-[#DFEF87]" />
+            <CheckCircle2 className="w-4 h-4 text-[#39ff14]" />
             <span>Fast 2-Hour Response Time</span>
           </div>
         </div>
       </div>
 
-      {/* Main Narrative & Values Container (Golden #DFEF87) */}
-      <div className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
+      {/* Main Narrative & Values Container (Golden #39ff14) */}
+      <div className="w-full max-w-[1260px] bg-[#39ff14] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(57, 255, 20,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
         <AboutSection onExploreServices={() => navigate('/services')} />
       </div>
 
@@ -86,8 +86,8 @@ export const AboutPage: React.FC = () => {
         <WhyChooseUsSection />
       </div>
 
-      {/* 4-Stage Agile Delivery Process (Golden #DFEF87) */}
-      <div className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
+      {/* 4-Stage Agile Delivery Process (Golden #39ff14) */}
+      <div className="w-full max-w-[1260px] bg-[#39ff14] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(57, 255, 20,0.25)] border border-[#0C2B80]/[0.12] my-2 sm:my-3 overflow-hidden">
         <ProcessSection />
       </div>
 
@@ -101,7 +101,7 @@ export const AboutPage: React.FC = () => {
         </p>
         <button
           onClick={() => navigate('/contact')}
-          className="px-7 py-3.5 rounded-full bg-[#DFEF87] hover:bg-white text-black hover:text-black font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
+          className="px-7 py-3.5 rounded-full bg-[#39ff14] hover:bg-white text-black hover:text-black font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
         >
           <span>Start a Conversation</span>
           <ArrowUpRight className="w-4 h-4" />

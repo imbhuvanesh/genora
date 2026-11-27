@@ -31,7 +31,7 @@ export function App() {
       {/* 3-second Premium Organic Bubble Preloader */}
       {loading && <GenoraPreloader onComplete={() => setLoading(false)} />}
 
-      <div className="min-h-screen bg-[#EFEFEF] text-black flex flex-col items-center justify-start pt-20 sm:pt-24 md:pt-28 select-none antialiased relative selection:bg-[#DFEF87] selection:text-black">
+      <div className="min-h-screen bg-[#EFEFEF] text-black flex flex-col items-center justify-start pt-20 sm:pt-24 md:pt-28 select-none antialiased relative selection:bg-[#39ff14] selection:text-black">
         {/* Floating Fixed Navigation Bar */}
         <Navbar />
 

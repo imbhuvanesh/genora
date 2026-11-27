@@ -90,18 +90,18 @@ export const GenoraPreloader: React.FC<GenoraPreloaderProps> = ({ onComplete }) 
         animate={
           phase === 'exit'
             ? {
-                clipPath: 'circle(0% at 50% 50%)',
-                transition: { duration: 0.45, ease: [0.77, 0, 0.175, 1] as const },
-              }
+              clipPath: 'circle(0% at 50% 50%)',
+              transition: { duration: 0.45, ease: [0.77, 0, 0.175, 1] as const },
+            }
             : {
-                clipPath: 'circle(150% at 50% 50%)',
-              }
+              clipPath: 'circle(150% at 50% 50%)',
+            }
         }
         className="fixed inset-0 z-[99999] bg-[#3670FF] flex flex-col items-center justify-center select-none overflow-hidden"
         style={{ willChange: 'clip-path' }}
       >
         <div className="relative w-full max-w-[1020px] px-4 sm:px-8 md:px-12 flex flex-col items-center justify-center overflow-visible">
-          
+
           {/* Main Logo Container — Immediately visible */}
           <motion.div
             initial={{ scale: 0.95, opacity: 1 }}
@@ -118,7 +118,7 @@ export const GenoraPreloader: React.FC<GenoraPreloaderProps> = ({ onComplete }) 
             {/*
               CUSTOM VECTOR ORGANIC BUBBLE TYPOGRAPHY: GENORA
               Inspired by chunky 70s psych-rock bubble lettering.
-              Color: Radiant Golden #DFEF87 on Ultramarine Blue #3670FF background.
+              Color: Radiant Golden #39ff14 on Ultramarine Blue #3670FF background.
               Directly visible with fluid stretching and organic settling.
             */}
             <svg
@@ -131,7 +131,7 @@ export const GenoraPreloader: React.FC<GenoraPreloaderProps> = ({ onComplete }) 
                 {/* Radiant Golden Gradient from Reference Palette */}
                 <linearGradient id="genoraGolden" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stopColor="#FFF275" />
-                  <stop offset="50%" stopColor="#DFEF87" />
+                  <stop offset="50%" stopColor="#39ff14" />
                   <stop offset="100%" stopColor="#E5BE00" />
                 </linearGradient>
               </defs>

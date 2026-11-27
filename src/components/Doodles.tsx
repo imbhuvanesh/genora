@@ -25,11 +25,11 @@ export const HeroHashtag: React.FC<{ className?: string }> = ({ className = '' }
         rotate: { repeat: Infinity, duration: 6, ease: 'easeInOut' },
         y: { repeat: Infinity, duration: 4.5, ease: 'easeInOut' },
       }}
-      className={`select-none filter drop-shadow-[0_0_20px_rgba(223, 239, 135,0.8)] drop-shadow-[0_8px_16px_rgba(0,10,40,0.3)] ${className}`}
+      className={`select-none filter drop-shadow-[0_0_20px_rgba(57, 255, 20,0.8)] drop-shadow-[0_8px_16px_rgba(0,10,40,0.3)] ${className}`}
     >
       <motion.path 
         d="M 52 14 L 32 116" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="16" 
         strokeLinecap="round"
         initial={{ pathLength: shouldReduceMotion ? 1 : 0 }}
@@ -38,7 +38,7 @@ export const HeroHashtag: React.FC<{ className?: string }> = ({ className = '' }
       />
       <motion.path 
         d="M 88 12 L 68 118" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="16" 
         strokeLinecap="round" 
         initial={{ pathLength: shouldReduceMotion ? 1 : 0 }}
@@ -47,7 +47,7 @@ export const HeroHashtag: React.FC<{ className?: string }> = ({ className = '' }
       />
       <motion.path 
         d="M 12 44 L 118 40" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="16" 
         strokeLinecap="round" 
         initial={{ pathLength: shouldReduceMotion ? 1 : 0 }}
@@ -56,7 +56,7 @@ export const HeroHashtag: React.FC<{ className?: string }> = ({ className = '' }
       />
       <motion.path 
         d="M 8 84 L 114 80" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="16" 
         strokeLinecap="round" 
         initial={{ pathLength: shouldReduceMotion ? 1 : 0 }}
@@ -85,11 +85,11 @@ export const TopRightArrow: React.FC<{ className?: string }> = ({ className = ''
         duration: 7.5,
         ease: 'easeInOut',
       }}
-      className={`select-none filter drop-shadow-[0_0_18px_rgba(223, 239, 135,0.7)] ${className}`}
+      className={`select-none filter drop-shadow-[0_0_18px_rgba(57, 255, 20,0.7)] ${className}`}
     >
       <motion.path 
         d="M 50 110 C 35 25, 145 15, 140 85 C 136 125, 105 145, 80 160" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="12" 
         strokeLinecap="round" 
         fill="none" 
@@ -102,7 +102,7 @@ export const TopRightArrow: React.FC<{ className?: string }> = ({ className = ''
       />
       <motion.path 
         d="M 104 148 L 76 162 L 82 134" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="12" 
         strokeLinecap="round" 
         strokeLinejoin="round" 
@@ -136,11 +136,11 @@ export const BottomLeftArrow: React.FC<{ className?: string }> = ({ className = 
         duration: 8.0,
         ease: 'easeInOut',
       }}
-      className={`select-none filter drop-shadow-[0_0_18px_rgba(223, 239, 135,0.7)] ${className}`}
+      className={`select-none filter drop-shadow-[0_0_18px_rgba(57, 255, 20,0.7)] ${className}`}
     >
       <motion.path 
         d="M 45 145 C 20 120, 25 75, 55 55 C 80 38, 115 50, 142 80" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="13" 
         strokeLinecap="round" 
         fill="none" 
@@ -153,7 +153,7 @@ export const BottomLeftArrow: React.FC<{ className?: string }> = ({ className = 
       />
       <motion.path 
         d="M 116 78 L 144 80 L 138 108" 
-        stroke="#DFEF87" 
+        stroke="#39ff14" 
         strokeWidth="13" 
         strokeLinecap="round" 
         strokeLinejoin="round" 
@@ -312,7 +312,7 @@ export const ConnectorArrow2: React.FC<{ className?: string }> = ({ className = 
 export const SmallNeonSticker: React.FC<{ className?: string }> = ({ className = '' }) => {
   return (
     <div 
-      className={`w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-neon-lime flex items-center justify-center shadow-pill-neon transition-all duration-300 hover:scale-110 hover:shadow-[0_8px_24px_rgba(223, 239, 135,0.65)] select-none border border-[#0C2B80]/15 ${className}`}
+      className={`w-11 h-11 sm:w-12 sm:h-12 rounded-full bg-neon-lime flex items-center justify-center shadow-pill-neon transition-all duration-300 hover:scale-110 hover:shadow-[0_8px_24px_rgba(57, 255, 20,0.65)] select-none border border-[#0C2B80]/15 ${className}`}
     >
       <svg 
         viewBox="0 0 32 32" 
@@ -341,7 +341,7 @@ export const SmallNeonSticker: React.FC<{ className?: string }> = ({ className =
 // Hand-drawn Neon Curly Bracket connecting single "WE" to BUILD / CREATE / GROW
 export const DoodleConnectorBracket: React.FC<{ className?: string; color?: string }> = ({ 
   className = '', 
-  color = '#DFEF87' 
+  color = '#39ff14' 
 }) => {
   const shouldReduceMotion = useReducedMotion();
 
@@ -370,7 +370,7 @@ export const DoodleConnectorBracket: React.FC<{ className?: string; color?: stri
 // Hand-drawn doodle scribbled underline
 export const DoodleUnderline: React.FC<{ className?: string; color?: string }> = ({ 
   className = '', 
-  color = '#DFEF87' 
+  color = '#39ff14' 
 }) => {
   const shouldReduceMotion = useReducedMotion();
 
@@ -399,7 +399,7 @@ export const DoodleUnderline: React.FC<{ className?: string; color?: string }> =
 // Hand-drawn circular doodle loop (circling a badge or number)
 export const DoodleCircle: React.FC<{ className?: string; color?: string }> = ({ 
   className = '', 
-  color = '#DFEF87' 
+  color = '#39ff14' 
 }) => {
   const shouldReduceMotion = useReducedMotion();
 
@@ -428,7 +428,7 @@ export const DoodleCircle: React.FC<{ className?: string; color?: string }> = ({
 // Hand-drawn sketch 4-point doodle star
 export const DoodleStar: React.FC<{ className?: string; color?: string }> = ({ 
   className = '', 
-  color = '#DFEF87' 
+  color = '#39ff14' 
 }) => {
   return (
     <motion.svg
@@ -519,7 +519,7 @@ export const DoodleCorner: React.FC<{
 // 2. Hand-Drawn Notebook Washi Tape Strip
 export const DoodleWashiTape: React.FC<{ className?: string; color?: string; text?: string }> = ({
   className = '',
-  color = '#DFEF87',
+  color = '#39ff14',
   text,
 }) => {
   return (
@@ -568,7 +568,7 @@ export const DoodleWashiTape: React.FC<{ className?: string; color?: string; tex
 // 3. Hand-Drawn Sparkle / Cross-Star
 export const DoodleSparkle: React.FC<{ className?: string; color?: string }> = ({
   className = '',
-  color = '#DFEF87',
+  color = '#39ff14',
 }) => {
   return (
     <motion.svg
@@ -685,7 +685,7 @@ export const DoodleCloud: React.FC<{ className?: string; color?: string }> = ({
 export const DoodleLightbulb: React.FC<{ className?: string; color?: string; bulbColor?: string }> = ({
   className = '',
   color = '#080808',
-  bulbColor = '#DFEF87',
+  bulbColor = '#39ff14',
 }) => {
   return (
     <motion.svg
@@ -723,7 +723,7 @@ export const DoodleLightbulb: React.FC<{ className?: string; color?: string; bul
 // 8. Hand-Drawn Paper Aeroplane (Flight Path)
 export const DoodlePaperPlane: React.FC<{ className?: string; color?: string }> = ({
   className = '',
-  color = '#DFEF87',
+  color = '#39ff14',
 }) => {
   return (
     <motion.svg
@@ -875,7 +875,7 @@ export const DoodleCodeTag: React.FC<{ className?: string; color?: string }> = (
 // 13. Hand-Drawn Organic Heart
 export const DoodleHeart: React.FC<{ className?: string; color?: string }> = ({
   className = '',
-  color = '#DFEF87',
+  color = '#39ff14',
 }) => {
   return (
     <motion.svg
@@ -930,7 +930,7 @@ export const DoodleChatBubble: React.FC<{ className?: string; color?: string }> 
 // 15. Hand-Drawn Camera / Film Frame
 export const DoodleCamera: React.FC<{ className?: string; color?: string }> = ({
   className = '',
-  color = '#DFEF87',
+  color = '#39ff14',
 }) => {
   return (
     <motion.svg
@@ -950,7 +950,7 @@ export const DoodleCamera: React.FC<{ className?: string; color?: string }> = ({
 // 16. Hand-Drawn Sparkling Diamond
 export const DoodleDiamond: React.FC<{ className?: string; color?: string }> = ({
   className = '',
-  color = '#DFEF87',
+  color = '#39ff14',
 }) => {
   return (
     <motion.svg

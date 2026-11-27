@@ -19,7 +19,7 @@ export const HomePage: React.FC = () => {
       particleCount: 80,
       spread: 70,
       origin: { y: 0.6 },
-      colors: ['#DFEF87', '#3670FF', '#FFFFFF'],
+      colors: ['#39ff14', '#3670FF', '#FFFFFF'],
     });
     navigate('/contact');
   };
@@ -65,13 +65,13 @@ export const HomePage: React.FC = () => {
       </ScrollMaskReveal>
 
       {/* =========================================================================
-          STACKED CONTAINER 3: CORE DISCIPLINES / SERVICES (GOLDEN #DFEF87)
+          STACKED CONTAINER 3: CORE DISCIPLINES / SERVICES (GOLDEN #39ff14)
          ========================================================================= */}
       <ScrollMaskReveal
         id="services"
         threshold={0.15}
         duration={1.05}
-        className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-3 sm:my-4 overflow-hidden"
+        className="w-full max-w-[1260px] bg-[#39ff14] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(57, 255, 20,0.25)] border border-[#0C2B80]/[0.12] my-3 sm:my-4 overflow-hidden"
       >
         <ServicesSection onSelectService={handleSelectService} />
       </ScrollMaskReveal>
@@ -101,13 +101,13 @@ export const HomePage: React.FC = () => {
       </ScrollMaskReveal>
 
       {/* =========================================================================
-          STACKED CONTAINER 6: 4-STAGE AGILE PROCESS (GOLDEN #DFEF87)
+          STACKED CONTAINER 6: 4-STAGE AGILE PROCESS (GOLDEN #39ff14)
          ========================================================================= */}
       <ScrollMaskReveal
         id="process"
         threshold={0.15}
         duration={1.05}
-        className="w-full max-w-[1260px] bg-[#DFEF87] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(223, 239, 135,0.25)] border border-[#0C2B80]/[0.12] my-3 sm:my-4 overflow-hidden"
+        className="w-full max-w-[1260px] bg-[#39ff14] rounded-[36px] sm:rounded-[48px] md:rounded-[56px] shadow-[0_20px_60px_-15px_rgba(57, 255, 20,0.25)] border border-[#0C2B80]/[0.12] my-3 sm:my-4 overflow-hidden"
       >
         <ProcessSection />
       </ScrollMaskReveal>

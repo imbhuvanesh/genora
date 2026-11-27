@@ -110,7 +110,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                 <div className="relative flex items-center justify-center pr-6 sm:pr-8">
                   <div className="relative bg-[#3670FF] text-white rounded-2xl px-4 py-3 flex items-center space-x-3 shadow-pill-blue transform -rotate-4 transition-all duration-200 hover:scale-[1.03]">
                     <div className="relative w-9 h-9 rounded-full bg-white/15 flex items-center justify-center border border-white/30 shadow-inner">
-                      <Code2 className="w-5 h-5 text-[#DFEF87]" />
+                      <Code2 className="w-5 h-5 text-[#39ff14]" />
                     </div>
                     <div>
                       <div className="font-sans text-xs font-bold leading-tight">stack.dev</div>
@@ -118,7 +118,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                     </div>
                   </div>
 
-                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#DFEF87] text-black font-sans text-xs font-bold px-3.5 py-1.5 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
+                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#39ff14] text-black font-sans text-xs font-bold px-3.5 py-1.5 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
                     HIGH PERFORMANCE
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                     </div>
                   </div>
 
-                  <div className="absolute -bottom-4 right-2 bg-[#DFEF87] text-black font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
+                  <div className="absolute -bottom-4 right-2 bg-[#39ff14] text-black font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
                     <span>AESTHETICS</span>
                     <ArrowUpRight className="w-3 h-3" />
                   </div>
@@ -200,7 +200,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
               {/* Bottom Badge Graphic */}
               <div className="mt-10 sm:mt-12 pt-4 pb-5 px-2 flex flex-col items-center justify-center">
                 <div className="relative w-full max-w-[250px]">
-                  <div className="relative bg-[#DFEF87] rounded-[24px] px-5 py-4 shadow-bubble-neon border border-[#0C2B80]/15 flex flex-col items-center justify-center transition-transform duration-200 hover:scale-[1.03]">
+                  <div className="relative bg-[#39ff14] rounded-[24px] px-5 py-4 shadow-bubble-neon border border-[#0C2B80]/15 flex flex-col items-center justify-center transition-transform duration-200 hover:scale-[1.03]">
                     <div className="font-sans text-[11px] font-bold text-black/75 tracking-wide uppercase">
                       CLIENT PIPELINE BOOST
                     </div>

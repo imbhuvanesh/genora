@@ -112,7 +112,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onStartProject }) => {
                     setMobileMenuOpen(false);
                     onStartProject();
                   }}
-                  className="w-full py-3 bg-[#DFEF87] text-black font-display text-sm font-bold rounded-2xl flex items-center justify-center space-x-2 shadow-lg"
+                  className="w-full py-3 bg-[#39ff14] text-black font-display text-sm font-bold rounded-2xl flex items-center justify-center space-x-2 shadow-lg"
                 >
                   <Sparkles className="w-4 h-4" />
                   <span>Start a Project</span>

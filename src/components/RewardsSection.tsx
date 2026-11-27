@@ -73,7 +73,7 @@ export const RewardsSection: React.FC = () => {
                 <div className="relative flex items-center justify-center pr-6 sm:pr-8">
                   <div className="relative bg-[#3670FF] text-white rounded-2xl px-4 py-3 flex items-center space-x-3 shadow-pill-blue transform -rotate-4 transition-all duration-300 hover:scale-[1.03]">
                     <div className="relative w-8 h-8 rounded-full bg-white/15 flex items-center justify-center border border-white/30 shadow-inner">
-                      <Code2 className="w-4 h-4 text-[#DFEF87]" />
+                      <Code2 className="w-4 h-4 text-[#39ff14]" />
                     </div>
                     <div>
                       <div className="font-sans text-xs font-bold leading-tight">genora.dev</div>
@@ -81,7 +81,7 @@ export const RewardsSection: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#DFEF87] text-black font-sans text-xs font-bold px-3 py-1 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
+                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#39ff14] text-black font-sans text-xs font-bold px-3 py-1 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
                     FAST &amp; SCALABLE
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export const RewardsSection: React.FC = () => {
                     className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                     delay={0.15}
                   />
-                  <div className="w-8 h-8 rounded-full bg-[#DFEF87]/30 text-black flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-full bg-[#39ff14]/30 text-black flex items-center justify-center">
                     <Zap className="w-4 h-4" />
                   </div>
                 </div>
@@ -143,7 +143,7 @@ export const RewardsSection: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="absolute -bottom-4 right-2 bg-[#DFEF87] text-black font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
+                  <div className="absolute -bottom-4 right-2 bg-[#39ff14] text-black font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
                     <span>AESTHETICS</span>
                     <ArrowUpRight className="w-3 h-3" />
                   </div>
@@ -196,7 +196,7 @@ export const RewardsSection: React.FC = () => {
 
               {/* Bottom Graphic Badge */}
               <div className="mt-8 pt-4 pb-2 px-2 flex flex-col items-center justify-center">
-                <div className="relative bg-[#DFEF87] text-black rounded-3xl p-4 sm:p-5 w-full max-w-[240px] shadow-pill-neon border border-[#0C2B80]/10 select-none">
+                <div className="relative bg-[#39ff14] text-black rounded-3xl p-4 sm:p-5 w-full max-w-[240px] shadow-pill-neon border border-[#0C2B80]/10 select-none">
                   <div className="flex items-center justify-between">
                     <span className="text-[10px] font-mono font-bold tracking-wider uppercase text-black/75">
                       Client ROI Boost

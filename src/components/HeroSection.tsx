@@ -96,7 +96,7 @@ const CinematicMaskedWord: React.FC<CinematicMaskedWordProps> = ({
             variants={letterVariants}
             className={`inline-block ${
               highlight
-                ? 'text-[#DFEF87] drop-shadow-[0_0_28px_rgba(223, 239, 135,0.5)]'
+                ? 'text-[#39ff14] drop-shadow-[0_0_28px_rgba(57, 255, 20,0.5)]'
                 : 'text-white drop-shadow-[0_8px_24px_rgba(0,10,30,0.3)]'
             }`}
             style={{ willChange: 'transform, opacity, filter' }}
@@ -136,13 +136,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
         style={{ y: doodleY, opacity: doodleOpacity }}
         className="absolute top-3 left-4 sm:left-6 z-10 opacity-75 pointer-events-none"
       >
-        <DoodleCorner position="top-left" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
+        <DoodleCorner position="top-left" color="#39ff14" className="w-8 h-8 sm:w-10 sm:h-10" />
       </motion.div>
       <motion.div
         style={{ y: doodleY, opacity: doodleOpacity }}
         className="absolute top-3 right-4 sm:right-6 z-10 opacity-75 pointer-events-none"
       >
-        <DoodleCorner position="top-right" color="#DFEF87" className="w-8 h-8 sm:w-10 sm:h-10" />
+        <DoodleCorner position="top-right" color="#39ff14" className="w-8 h-8 sm:w-10 sm:h-10" />
       </motion.div>
 
       {/* Centered Hero Composition with Scroll Parallax */}
@@ -166,7 +166,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
             className="inline-flex items-center justify-center space-x-2 px-3.5 sm:px-4 py-1.5 rounded-full bg-white/10 border border-white/20 text-white font-sans text-xs sm:text-[13px] font-semibold tracking-wide shadow-sm backdrop-blur-md"
           >
             <span className="uppercase tracking-wider">Creative Technology &amp; Digital Marketing</span>
-            <DoodleStar className="w-3.5 h-3.5 text-[#DFEF87] ml-1" />
+            <DoodleStar className="w-3.5 h-3.5 text-[#39ff14] ml-1" />
           </motion.div>
 
           {/* Hand-Drawn Sparkle Accent */}
@@ -176,7 +176,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
             transition={{ duration: 0.8, delay: 0.35, ease: CINEMATIC_EASE }}
             className="absolute -right-8 -top-3 hidden sm:block pointer-events-none"
           >
-            <DoodleSparkle color="#DFEF87" className="w-6 h-6" />
+            <DoodleSparkle color="#39ff14" className="w-6 h-6" />
           </motion.div>
         </div>
 
@@ -207,7 +207,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
               }}
               className="absolute -top-7 sm:-top-9 md:-top-11 left-1/2 -translate-x-1/2 pointer-events-none z-20"
             >
-              <DoodleCrown color="#DFEF87" className="w-10 h-7 sm:w-13 sm:h-9 md:w-15 md:h-10 drop-shadow-[0_0_14px_rgba(223, 239, 135,0.65)]" />
+              <DoodleCrown color="#39ff14" className="w-10 h-7 sm:w-13 sm:h-9 md:w-15 md:h-10 drop-shadow-[0_0_14px_rgba(57, 255, 20,0.65)]" />
             </motion.div>
 
             {/* Hand-Drawn Golden Hashtag Doodle with Floating Motion */}
@@ -300,7 +300,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
                 transition={{ duration: 0.85, delay: 0.8, ease: CINEMATIC_EASE }}
                 className="absolute -bottom-2 sm:-bottom-3 left-0 w-full pointer-events-none origin-left"
               >
-                <DoodleUnderline color="#DFEF87" className="w-full h-3 sm:h-4 drop-shadow-[0_0_12px_rgba(223, 239, 135,0.6)]" />
+                <DoodleUnderline color="#39ff14" className="w-full h-3 sm:h-4 drop-shadow-[0_0_12px_rgba(57, 255, 20,0.6)]" />
               </motion.div>
 
               {/* Hand-Drawn Animated Burst Accent on GROW */}
@@ -318,7 +318,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
                 }}
                 className="absolute -right-10 -top-4 hidden sm:block pointer-events-none"
               >
-                <DoodleBurst color="#DFEF87" className="w-9 h-9 opacity-90 drop-shadow-[0_0_10px_rgba(223, 239, 135,0.5)]" />
+                <DoodleBurst color="#39ff14" className="w-9 h-9 opacity-90 drop-shadow-[0_0_10px_rgba(57, 255, 20,0.5)]" />
               </motion.div>
             </div>
 
@@ -387,16 +387,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
             }}
             className="absolute -left-14 sm:-left-20 -top-12 hidden lg:flex items-center space-x-1 pointer-events-none"
           >
-            <BottomLeftArrow className="w-14 h-14 text-[#DFEF87] drop-shadow-[0_0_12px_rgba(223, 239, 135,0.6)] -rotate-45" />
-            <span className="font-sans text-[11px] font-black text-[#DFEF87] uppercase tracking-widest drop-shadow-[0_0_8px_rgba(223, 239, 135,0.5)] whitespace-nowrap -rotate-6">
+            <BottomLeftArrow className="w-14 h-14 text-[#39ff14] drop-shadow-[0_0_12px_rgba(57, 255, 20,0.6)] -rotate-45" />
+            <span className="font-sans text-[11px] font-black text-[#39ff14] uppercase tracking-widest drop-shadow-[0_0_8px_rgba(57, 255, 20,0.5)] whitespace-nowrap -rotate-6">
               Let's Build!
             </span>
           </motion.div>
 
-          {/* Primary CTA: High-contrast Golden #DFEF87 with Black font, hovers to White */}
+          {/* Primary CTA: High-contrast Golden #39ff14 with Black font, hovers to White */}
           <button
             onClick={onGetStarted}
-            className="group px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-[#DFEF87] hover:bg-white text-black hover:text-black font-sans font-bold text-xs sm:text-sm tracking-tight flex items-center space-x-2 shadow-[0_8px_25px_rgba(223, 239, 135,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none"
+            className="group px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-[#39ff14] hover:bg-white text-black hover:text-black font-sans font-bold text-xs sm:text-sm tracking-tight flex items-center space-x-2 shadow-[0_8px_25px_rgba(57, 255, 20,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none"
           >
             <span>Start a Project</span>
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 stroke-[2.5]" />
@@ -407,7 +407,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
             onClick={onExploreServices}
             className="px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-white/10 hover:bg-white/20 text-white border border-white/25 font-sans font-semibold text-xs sm:text-sm tracking-tight flex items-center space-x-2 backdrop-blur-md transition-all duration-200 hover:scale-105 active:scale-95 cursor-pointer focus:outline-none"
           >
-            <Compass className="w-4 h-4 text-[#DFEF87]" />
+            <Compass className="w-4 h-4 text-[#39ff14]" />
             <span>Explore Services</span>
           </button>
         </motion.div>
