@@ -85,7 +85,7 @@ export const TopRightArrow: React.FC<{ className?: string }> = ({ className = ''
         duration: 7.5,
         ease: 'easeInOut',
       }}
-      className={`select-none filter drop-shadow-[0_0_15px_rgba(168,255,0,0.6)] ${className}`}
+      className={`select-none filter drop-shadow-[0_0_18px_rgba(249,214,1,0.7)] ${className}`}
     >
       <motion.path 
         d="M 50 110 C 35 25, 145 15, 140 85 C 136 125, 105 145, 80 160" 
@@ -136,7 +136,7 @@ export const BottomLeftArrow: React.FC<{ className?: string }> = ({ className = 
         duration: 8.0,
         ease: 'easeInOut',
       }}
-      className={`select-none filter drop-shadow-[0_0_15px_rgba(168,255,0,0.6)] ${className}`}
+      className={`select-none filter drop-shadow-[0_0_18px_rgba(249,214,1,0.7)] ${className}`}
     >
       <motion.path 
         d="M 45 145 C 20 120, 25 75, 55 55 C 80 38, 115 50, 142 80" 

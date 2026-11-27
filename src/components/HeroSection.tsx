@@ -7,6 +7,9 @@ import {
   DoodleSparkle,
   DoodleBurst,
   DoodleCorner,
+  DoodleCrown,
+  DoodleUnderline,
+  BottomLeftArrow,
 } from './Doodles';
 import { SlowHighlight } from './AnimatedText';
 import { ArrowUpRight, Compass } from 'lucide-react';
@@ -187,10 +190,30 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
           
           {/* Left: Giant "WE" with Mask Emergence & Hashtag Doodle */}
           <div className="relative flex items-center justify-center">
-            {/* Hand-Drawn Neon Hashtag Doodle */}
+            {/* Playful Floating Hand-Drawn Crown over WE */}
+            <motion.div
+              initial={{ opacity: 0, y: -20, rotate: -12, scale: 0.6 }}
+              animate={{ 
+                opacity: 1, 
+                y: shouldReduceMotion ? 0 : [-5, 3, -5], 
+                rotate: shouldReduceMotion ? -6 : [-8, 2, -8],
+                scale: 1 
+              }}
+              transition={{
+                opacity: { duration: 0.6, delay: 0.38 },
+                scale: { duration: 0.6, delay: 0.38 },
+                y: { repeat: Infinity, duration: 4.2, ease: 'easeInOut' },
+                rotate: { repeat: Infinity, duration: 5.5, ease: 'easeInOut' }
+              }}
+              className="absolute -top-7 sm:-top-9 md:-top-11 left-1/2 -translate-x-1/2 pointer-events-none z-20"
+            >
+              <DoodleCrown color="#F9D601" className="w-10 h-7 sm:w-13 sm:h-9 md:w-15 md:h-10 drop-shadow-[0_0_14px_rgba(249,214,1,0.65)]" />
+            </motion.div>
+
+            {/* Hand-Drawn Golden Hashtag Doodle with Floating Motion */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 0.85, scale: 1 }}
+              animate={{ opacity: 0.88, scale: 1 }}
               transition={{ duration: 1.1, delay: 0.3, ease: CINEMATIC_EASE }}
               className="absolute -left-8 sm:-left-14 md:-left-20 lg:-left-24 -top-6 sm:-top-8 md:-top-10 pointer-events-none"
             >
@@ -270,14 +293,32 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
                 />
               </div>
 
-              {/* Hand-Drawn Burst Accent on GROW */}
+              {/* Hand-Drawn Animated Underline under GROW */}
+              <motion.div
+                initial={{ opacity: 0, scaleX: 0 }}
+                animate={{ opacity: 1, scaleX: 1 }}
+                transition={{ duration: 0.85, delay: 0.8, ease: CINEMATIC_EASE }}
+                className="absolute -bottom-2 sm:-bottom-3 left-0 w-full pointer-events-none origin-left"
+              >
+                <DoodleUnderline color="#F9D601" className="w-full h-3 sm:h-4 drop-shadow-[0_0_12px_rgba(249,214,1,0.6)]" />
+              </motion.div>
+
+              {/* Hand-Drawn Animated Burst Accent on GROW */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
-                animate={{ opacity: 0.95, scale: 1 }}
-                transition={{ duration: 0.9, delay: 0.72, ease: CINEMATIC_EASE }}
+                animate={{ 
+                  opacity: 0.95, 
+                  scale: shouldReduceMotion ? 1 : [1, 1.15, 1],
+                  rotate: shouldReduceMotion ? 0 : [0, 8, -6, 0]
+                }}
+                transition={{ 
+                  opacity: { duration: 0.9, delay: 0.72, ease: CINEMATIC_EASE },
+                  scale: { repeat: Infinity, duration: 3.5, ease: 'easeInOut' },
+                  rotate: { repeat: Infinity, duration: 6, ease: 'easeInOut' }
+                }}
                 className="absolute -right-10 -top-4 hidden sm:block pointer-events-none"
               >
-                <DoodleBurst color="#F9D601" className="w-9 h-9 opacity-90" />
+                <DoodleBurst color="#F9D601" className="w-9 h-9 opacity-90 drop-shadow-[0_0_10px_rgba(249,214,1,0.5)]" />
               </motion.div>
             </div>
 
@@ -329,10 +370,33 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
           transition={{ duration: 0.65, delay: 1.05, ease: CINEMATIC_EASE }}
           className="relative z-20 mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4"
         >
-          {/* Primary CTA: High-contrast Golden #F9D601 with Deep Blue #0C2B80 text, hovers to White */}
+          {/* Hand-Drawn Animated Arrow pointing toward Primary CTA */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.7, x: -15 }}
+            animate={{ 
+              opacity: 1, 
+              scale: 1,
+              x: shouldReduceMotion ? 0 : [-3, 3, -3],
+              y: shouldReduceMotion ? 0 : [2, -4, 2]
+            }}
+            transition={{
+              opacity: { duration: 0.6, delay: 1.25 },
+              scale: { duration: 0.6, delay: 1.25 },
+              x: { repeat: Infinity, duration: 4, ease: 'easeInOut' },
+              y: { repeat: Infinity, duration: 3.2, ease: 'easeInOut' }
+            }}
+            className="absolute -left-14 sm:-left-20 -top-12 hidden lg:flex items-center space-x-1 pointer-events-none"
+          >
+            <BottomLeftArrow className="w-14 h-14 text-[#F9D601] drop-shadow-[0_0_12px_rgba(249,214,1,0.6)] -rotate-45" />
+            <span className="font-sans text-[11px] font-black text-[#F9D601] uppercase tracking-widest drop-shadow-[0_0_8px_rgba(249,214,1,0.5)] whitespace-nowrap -rotate-6">
+              Let's Build!
+            </span>
+          </motion.div>
+
+          {/* Primary CTA: High-contrast Golden #F9D601 with Black font, hovers to White */}
           <button
             onClick={onGetStarted}
-            className="group px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-[#F9D601] hover:bg-white text-black hover:text-[#3670FF] font-sans font-bold text-xs sm:text-sm tracking-tight flex items-center space-x-2 shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none"
+            className="group px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-[#F9D601] hover:bg-white text-black hover:text-black font-sans font-bold text-xs sm:text-sm tracking-tight flex items-center space-x-2 shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none"
           >
             <span>Start a Project</span>
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 stroke-[2.5]" />

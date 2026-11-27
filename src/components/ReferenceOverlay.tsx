@@ -140,7 +140,7 @@ export const ReferenceOverlay: React.FC = () => {
                   setSideBySide(false);
                   setOverlayActive(true);
                 }}
-                className="px-4 py-2 bg-[#F9D601] text-black font-sans text-xs font-bold rounded-xl hover:bg-white hover:text-[#3670FF] cursor-pointer"
+                className="px-4 py-2 bg-[#F9D601] text-black font-sans text-xs font-bold rounded-xl hover:bg-white hover:text-black cursor-pointer"
               >
                 Try Direct Page Overlay
               </button>

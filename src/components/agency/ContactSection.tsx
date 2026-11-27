@@ -288,7 +288,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#F9D601] hover:bg-white text-black hover:text-[#3670FF] font-sans font-bold text-xs sm:text-sm py-3.5 rounded-full shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] transition-all hover:scale-[1.008] active:scale-98 flex items-center justify-center space-x-2 mt-2 cursor-pointer"
+                    className="w-full bg-[#F9D601] hover:bg-white text-black hover:text-black font-sans font-bold text-xs sm:text-sm py-3.5 rounded-full shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] transition-all hover:scale-[1.008] active:scale-98 flex items-center justify-center space-x-2 mt-2 cursor-pointer"
                   >
                     {isSubmitting ? (
                       <span>Sending Your Request...</span>

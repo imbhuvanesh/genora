@@ -89,7 +89,7 @@ export const WorkPage: React.FC = () => {
         </p>
         <button
           onClick={() => navigate('/contact')}
-          className="px-7 py-3.5 rounded-full bg-[#F9D601] text-black hover:bg-white hover:text-[#3670FF] font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
+          className="px-7 py-3.5 rounded-full bg-[#F9D601] text-black hover:bg-white hover:text-black font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
         >
           <span>Kick Off Your Project</span>
           <ArrowUpRight className="w-4 h-4" />
