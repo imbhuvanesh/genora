@@ -332,7 +332,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted, onExplor
           {/* Primary CTA: High-contrast Golden #F9D601 with Deep Blue #0C2B80 text, hovers to White */}
           <button
             onClick={onGetStarted}
-            className="group px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-[#F9D601] hover:bg-white text-[#0C2B80] hover:text-[#3670FF] font-sans font-bold text-xs sm:text-sm tracking-tight flex items-center space-x-2 shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none"
+            className="group px-6 sm:px-7 py-3 sm:py-3.5 rounded-full bg-[#F9D601] hover:bg-white text-black hover:text-[#3670FF] font-sans font-bold text-xs sm:text-sm tracking-tight flex items-center space-x-2 shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer focus:outline-none"
           >
             <span>Start a Project</span>
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 stroke-[2.5]" />

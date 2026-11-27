@@ -69,7 +69,7 @@ export const ContactPage: React.FC = () => {
             href="mailto:hello@genora.agency"
             className="bg-white/15 hover:bg-white/25 border border-white/20 rounded-2xl p-4 flex items-center space-x-3 transition-colors cursor-pointer"
           >
-            <div className="w-10 h-10 rounded-xl bg-[#F9D601] text-[#0C2B80] flex items-center justify-center shrink-0 shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-[#F9D601] text-black flex items-center justify-center shrink-0 shadow-sm">
               <Mail className="w-5 h-5" />
             </div>
             <div>
@@ -96,15 +96,15 @@ export const ContactPage: React.FC = () => {
       </div>
 
       {/* Trust & Guarantee Box (Golden #F9D601) */}
-      <div className="w-full max-w-[1260px] bg-[#F9D601] rounded-[36px] sm:rounded-[48px] p-8 sm:p-10 border border-[#0C2B80]/[0.12] shadow-[0_12px_40px_rgba(249,214,1,0.25)] my-2 sm:my-3 text-[#0C2B80]">
+      <div className="w-full max-w-[1260px] bg-[#F9D601] rounded-[36px] sm:rounded-[48px] p-8 sm:p-10 border border-[#0C2B80]/[0.12] shadow-[0_12px_40px_rgba(249,214,1,0.25)] my-2 sm:my-3 text-black">
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
           <div className="flex items-start space-x-3.5">
             <div className="w-10 h-10 rounded-xl bg-white text-[#3670FF] flex items-center justify-center shrink-0 shadow-sm">
               <ShieldCheck className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-sans font-bold text-[#0C2B80] text-sm">NDAs &amp; IP Protection</h4>
-              <p className="text-[#0C2B80]/75 text-xs mt-1">Full intellectual property transfer upon delivery. Strict confidentiality guaranteed.</p>
+              <h4 className="font-sans font-bold text-black text-sm">NDAs &amp; IP Protection</h4>
+              <p className="text-black/75 text-xs mt-1">Full intellectual property transfer upon delivery. Strict confidentiality guaranteed.</p>
             </div>
           </div>
 
@@ -113,8 +113,8 @@ export const ContactPage: React.FC = () => {
               <CheckCircle2 className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-sans font-bold text-[#0C2B80] text-sm">Milestone-Based Billing</h4>
-              <p className="text-[#0C2B80]/75 text-xs mt-1">Transparent sprint budgets and milestone-based approvals. No unexpected invoices.</p>
+              <h4 className="font-sans font-bold text-black text-sm">Milestone-Based Billing</h4>
+              <p className="text-black/75 text-xs mt-1">Transparent sprint budgets and milestone-based approvals. No unexpected invoices.</p>
             </div>
           </div>
 
@@ -123,8 +123,8 @@ export const ContactPage: React.FC = () => {
               <Clock className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="font-sans font-bold text-[#0C2B80] text-sm">Dedicated Team Delivery</h4>
-              <p className="text-[#0C2B80]/75 text-xs mt-1">Dedicated senior designer, full-stack engineer, and product manager per project.</p>
+              <h4 className="font-sans font-bold text-black text-sm">Dedicated Team Delivery</h4>
+              <p className="text-black/75 text-xs mt-1">Dedicated senior designer, full-stack engineer, and product manager per project.</p>
             </div>
           </div>
         </div>

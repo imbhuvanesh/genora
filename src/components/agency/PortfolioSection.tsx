@@ -69,7 +69,7 @@ export const PortfolioSection: React.FC = () => {
                 onClick={() => setActiveCategory(cat)}
                 className={`px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-sans transition-all duration-200 cursor-pointer ${
                   activeCategory === cat
-                    ? 'bg-[#F9D601] text-[#0C2B80] font-bold shadow-[0_4px_16px_rgba(249,214,1,0.4)] scale-[1.02]'
+                    ? 'bg-[#F9D601] text-black font-bold shadow-[0_4px_16px_rgba(249,214,1,0.4)] scale-[1.02]'
                     : 'text-white/80 font-normal hover:text-white hover:bg-white/15'
                 }`}
               >
@@ -106,7 +106,7 @@ export const PortfolioSection: React.FC = () => {
                       <span className="text-[10.5px] font-bold uppercase tracking-wider bg-white/20 backdrop-blur-md px-3 py-1 rounded-full border border-white/30 font-sans text-white">
                         {project.category}
                       </span>
-                      <div className="w-8 h-8 rounded-full bg-white text-[#0C2B80] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-md">
+                      <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-md">
                         <ArrowUpRight className="w-4 h-4" />
                       </div>
                     </div>
@@ -175,7 +175,7 @@ export const PortfolioSection: React.FC = () => {
               className="relative w-full max-w-xl bg-[#0C2B80] text-white rounded-[32px] p-6 sm:p-8 border border-white/25 shadow-2xl z-10"
             >
               <div className="flex items-center justify-between mb-4">
-                <span className="text-xs font-bold uppercase tracking-wider bg-[#F9D601] text-[#0C2B80] px-3 py-1 rounded-full">
+                <span className="text-xs font-bold uppercase tracking-wider bg-[#F9D601] text-black px-3 py-1 rounded-full">
                   {selectedProject.category}
                 </span>
                 <button
@@ -205,7 +205,7 @@ export const PortfolioSection: React.FC = () => {
                 <div className="text-xs text-white/70">Client: <span className="text-white font-medium">{selectedProject.client}</span></div>
                 <button
                   onClick={() => setSelectedProject(null)}
-                  className="px-5 py-2.5 rounded-full bg-[#F9D601] text-[#0C2B80] font-sans font-bold text-xs hover:bg-white hover:text-[#3670FF] transition-colors cursor-pointer"
+                  className="px-5 py-2.5 rounded-full bg-[#F9D601] text-black font-sans font-bold text-xs hover:bg-white hover:text-[#3670FF] transition-colors cursor-pointer"
                 >
                   Close Case Study
                 </button>

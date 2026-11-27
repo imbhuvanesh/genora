@@ -24,7 +24,7 @@ export const WhyChooseUsSection: React.FC = () => {
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <section id="why-us" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-[#0C2B80] bg-transparent overflow-hidden">
+    <section id="why-us" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-black bg-transparent overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 sm:mb-8 pb-4 border-b border-[#3670FF]/15">
@@ -37,14 +37,14 @@ export const WhyChooseUsSection: React.FC = () => {
             
             <MaskedLineReveal
               lines={["WHY TOP BRANDS CHOOSE", "GENORA DIGITAL AGENCY."]}
-              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#0C2B80] leading-[1.12]"
+              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black leading-[1.12]"
               delay={0.1}
             />
           </div>
           
           <div className="mt-4 md:mt-0 max-w-md">
             <FadeUpParagraph
-              className="text-sm sm:text-base text-[#0C2B80]/80 font-normal font-sans leading-relaxed"
+              className="text-sm sm:text-base text-black/80 font-normal font-sans leading-relaxed"
               delay={0.25}
             >
               We bridge the gap between <SlowHighlight>aesthetic brilliance</SlowHighlight>, robust <SlowHighlight>technical engineering</SlowHighlight>, and aggressive <SlowHighlight>commercial growth</SlowHighlight>.
@@ -87,7 +87,7 @@ export const WhyChooseUsSection: React.FC = () => {
                       <div className="w-11 h-11 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center shadow-md">
                         <Icon className="w-5 h-5 stroke-[2] text-[#F9D601]" />
                       </div>
-                      <span className="font-sans text-[11px] font-bold uppercase tracking-wider bg-[#F9D601] text-[#0C2B80] px-3 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
+                      <span className="font-sans text-[11px] font-bold uppercase tracking-wider bg-[#F9D601] text-black px-3 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
                         {item.metric}
                       </span>
                     </div>
@@ -95,7 +95,7 @@ export const WhyChooseUsSection: React.FC = () => {
                     {/* Heading */}
                     <MaskedLineReveal
                       lines={lines}
-                      className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                      className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                       delay={0.15}
                     />
 
@@ -103,17 +103,17 @@ export const WhyChooseUsSection: React.FC = () => {
                     <p className="font-sans text-xs sm:text-[13px] text-[#3670FF] font-semibold mt-2">
                       {item.subtitle}
                     </p>
-                    <p className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/75 mt-2 leading-relaxed">
+                    <p className="font-sans text-xs sm:text-[13px] text-black/75 mt-2 leading-relaxed">
                       {item.description}
                     </p>
                   </div>
 
                   {/* Bottom Decorative Pill */}
                   <div className="mt-8 pt-4 border-t border-[#3670FF]/15 flex items-center justify-between">
-                    <span className="text-[11px] font-mono text-[#0C2B80]/60 uppercase tracking-wider font-semibold">
+                    <span className="text-[11px] font-mono text-black/60 uppercase tracking-wider font-semibold">
                       Standard Practice
                     </span>
-                    <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center group-hover:bg-[#3670FF] text-[#0C2B80] group-hover:text-white transition-colors shadow-sm">
+                    <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center group-hover:bg-[#3670FF] text-black group-hover:text-white transition-colors shadow-sm">
                       <ArrowUpRight className="w-3.5 h-3.5" />
                     </div>
                   </div>

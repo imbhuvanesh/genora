@@ -69,7 +69,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* CTA 1: Start a Project */}
           <button
             onClick={onStartProject}
-            className="w-full sm:w-auto group inline-flex items-center justify-center space-x-2.5 bg-white text-[#0C2B80] font-display text-sm sm:text-base font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full shadow-[0_4px_25px_rgba(255,255,255,0.25)] hover:shadow-[0_8px_35px_rgba(255,255,255,0.45)] transition-all duration-300 hover:scale-[1.02] active:scale-95"
+            className="w-full sm:w-auto group inline-flex items-center justify-center space-x-2.5 bg-white text-black font-display text-sm sm:text-base font-bold px-7 sm:px-8 py-3.5 sm:py-4 rounded-full shadow-[0_4px_25px_rgba(255,255,255,0.25)] hover:shadow-[0_8px_35px_rgba(255,255,255,0.45)] transition-all duration-300 hover:scale-[1.02] active:scale-95"
           >
             <span>Start a Project</span>
             <ArrowUpRight className="w-4 h-4 sm:w-5 sm:h-5 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />

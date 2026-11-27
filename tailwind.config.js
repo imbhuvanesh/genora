@@ -25,7 +25,7 @@ export default {
         'subtle-text': '#60A5FA',
 
         'evergreen': '#0C2B80',
-        'chinese-black': '#0C2B80',
+        'chinese-black': '#171717',
         'sunny-lime': '#F9D601',
         'butter-white': '#EFEFEF',
         'primary-blue': '#3670FF',
@@ -33,7 +33,7 @@ export default {
         'deep-navy': '#0C2B80',
         'neon-lime': '#F9D601',
         'creamy-avocado': '#F9D601',
-        'primary-black': '#0C2B80',
+        'primary-black': '#000000',
         'soft-grey': '#EFEFEF',
         'secondary-blue': '#2256DB',
       },

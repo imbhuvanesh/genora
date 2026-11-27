@@ -45,7 +45,7 @@ export const ReferenceOverlay: React.FC = () => {
                 onClick={() => setOverlayActive(!overlayActive)}
                 className={`px-3 py-1 rounded-full text-xs font-bold transition-all cursor-pointer ${
                   overlayActive 
-                    ? 'bg-[#F9D601] text-[#0C2B80]' 
+                    ? 'bg-[#F9D601] text-black' 
                     : 'bg-white/15 text-white/70 hover:bg-white/25'
                 }`}
               >
@@ -79,7 +79,7 @@ export const ReferenceOverlay: React.FC = () => {
                 onClick={() => setSideBySide(!sideBySide)}
                 className={`px-3 py-1 rounded-full text-xs font-bold transition-all cursor-pointer ${
                   sideBySide 
-                    ? 'bg-[#F9D601] text-[#0C2B80]' 
+                    ? 'bg-[#F9D601] text-black' 
                     : 'bg-white/15 text-white/70 hover:bg-white/25'
                 }`}
               >
@@ -140,7 +140,7 @@ export const ReferenceOverlay: React.FC = () => {
                   setSideBySide(false);
                   setOverlayActive(true);
                 }}
-                className="px-4 py-2 bg-[#F9D601] text-[#0C2B80] font-sans text-xs font-bold rounded-xl hover:bg-white hover:text-[#3670FF] cursor-pointer"
+                className="px-4 py-2 bg-[#F9D601] text-black font-sans text-xs font-bold rounded-xl hover:bg-white hover:text-[#3670FF] cursor-pointer"
               >
                 Try Direct Page Overlay
               </button>

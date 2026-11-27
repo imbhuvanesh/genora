@@ -97,7 +97,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
         {/* =========================================================================
             PARENT CONTAINER WITH TIGHT BALANCED SPACING
            ========================================================================= */}
-        <div className="relative bg-white rounded-[32px] sm:rounded-[40px] p-6 sm:p-8 md:p-10 border border-[#3670FF]/15 shadow-card-soft text-[#0C2B80] overflow-hidden">
+        <div className="relative bg-white rounded-[32px] sm:rounded-[40px] p-6 sm:p-8 md:p-10 border border-[#3670FF]/15 shadow-card-soft text-black overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start relative z-10">
 
             {/* Left Column: Direct Channels & Guarantee */}
@@ -108,10 +108,10 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                 <div className="w-10 h-10 rounded-2xl bg-[#3670FF] text-white flex items-center justify-center mb-3.5 shadow-md">
                   <Clock className="w-5 h-5 text-[#F9D601]" />
                 </div>
-                <h3 className="font-sans font-bold text-lg sm:text-xl text-[#0C2B80]">
+                <h3 className="font-sans font-bold text-lg sm:text-xl text-black">
                   Fast-Track Discovery
                 </h3>
-                <p className="mt-1.5 text-xs sm:text-sm text-[#0C2B80]/75 leading-relaxed font-normal font-sans">
+                <p className="mt-1.5 text-xs sm:text-sm text-black/75 leading-relaxed font-normal font-sans">
                   No automated ticket queues or endless back-and-forth. You speak directly with our senior creative technologist and growth director.
                 </p>
 
@@ -133,7 +133,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   </div>
                   <div>
                     <div className="text-[10.5px] font-bold uppercase tracking-wider text-emerald-600 font-sans">Direct Chat</div>
-                    <div className="font-sans font-bold text-sm sm:text-base text-[#0C2B80]">Chat on WhatsApp</div>
+                    <div className="font-sans font-bold text-sm sm:text-base text-black">Chat on WhatsApp</div>
                   </div>
                 </div>
                 <div className="w-8 h-8 rounded-full bg-emerald-100 text-emerald-700 group-hover:bg-emerald-500 group-hover:text-white flex items-center justify-center transition-colors">
@@ -151,11 +151,11 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                     <Mail className="w-5 h-5 stroke-[2] text-[#F9D601]" />
                   </div>
                   <div>
-                    <div className="text-[10.5px] font-bold uppercase tracking-wider text-[#0C2B80]/60 font-sans">Email Directly</div>
-                    <div className="font-sans font-bold text-xs sm:text-sm text-[#0C2B80] break-all">hello@genora.agency</div>
+                    <div className="text-[10.5px] font-bold uppercase tracking-wider text-black/60 font-sans">Email Directly</div>
+                    <div className="font-sans font-bold text-xs sm:text-sm text-black break-all">hello@genora.agency</div>
                   </div>
                 </div>
-                <div className="w-8 h-8 rounded-full bg-white group-hover:bg-[#3670FF] text-[#0C2B80] group-hover:text-white flex items-center justify-center transition-colors shadow-sm">
+                <div className="w-8 h-8 rounded-full bg-white group-hover:bg-[#3670FF] text-black group-hover:text-white flex items-center justify-center transition-colors shadow-sm">
                   <ArrowUpRight className="w-4 h-4" />
                 </div>
               </a>
@@ -166,13 +166,13 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
             <div className="lg:col-span-7 bg-[#EFEFEF] rounded-[28px] sm:rounded-[32px] p-6 sm:p-8 border border-[#3670FF]/10 shadow-sm">
               {submitted ? (
                 <div className="py-12 text-center flex flex-col items-center">
-                  <div className="w-16 h-16 rounded-full bg-[#F9D601] text-[#0C2B80] flex items-center justify-center mb-4 shadow-md">
+                  <div className="w-16 h-16 rounded-full bg-[#F9D601] text-black flex items-center justify-center mb-4 shadow-md">
                     <CheckCircle className="w-8 h-8" />
                   </div>
-                  <h3 className="font-sans font-bold text-2xl text-[#0C2B80]">
+                  <h3 className="font-sans font-bold text-2xl text-black">
                     Proposal Request Received!
                   </h3>
-                  <p className="font-sans font-normal text-sm text-[#0C2B80]/75 max-w-md mt-2 leading-relaxed">
+                  <p className="font-sans font-normal text-sm text-black/75 max-w-md mt-2 leading-relaxed">
                     Thank you, {formData.name}. Our partners have received your project details for <span className="font-bold text-[#3670FF]">{formData.service}</span>. We will review your goals and email you a tailored project proposal within 2 hours.
                   </p>
                   <button
@@ -195,7 +195,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                 <form onSubmit={handleSubmit} className="space-y-4">
                   {/* Select Service Pills */}
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-2 font-sans">
+                    <label className="block text-xs font-bold uppercase tracking-wider text-black mb-2 font-sans">
                       Select Required Service *
                     </label>
                     <div className="flex flex-wrap gap-2">
@@ -207,7 +207,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                           className={`text-xs font-sans px-3.5 py-1.5 rounded-xl transition-all duration-200 cursor-pointer ${
                             formData.service === svc
                               ? 'bg-[#3670FF] text-white font-bold shadow-md'
-                              : 'bg-white text-[#0C2B80] font-normal hover:bg-[#3670FF]/15'
+                              : 'bg-white text-black font-normal hover:bg-[#3670FF]/15'
                           }`}
                         >
                           {svc}
@@ -219,7 +219,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   {/* Name & Email Inputs */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
                     <div>
-                      <label className="block text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-1 font-sans">
+                      <label className="block text-xs font-bold uppercase tracking-wider text-black mb-1 font-sans">
                         Your Name *
                       </label>
                       <input
@@ -227,7 +227,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                         placeholder="Alex Rivera"
                         value={formData.name}
                         onChange={e => setFormData(prev => ({ ...prev, name: e.target.value }))}
-                        className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-[#0C2B80] focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
+                        className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-black focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
                           errors.name ? 'border-red-400' : 'border-[#3670FF]/15'
                         }`}
                       />
@@ -235,7 +235,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                     </div>
 
                     <div>
-                      <label className="block text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-1 font-sans">
+                      <label className="block text-xs font-bold uppercase tracking-wider text-black mb-1 font-sans">
                         Work Email *
                       </label>
                       <input
@@ -243,7 +243,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                         placeholder="alex@company.com"
                         value={formData.email}
                         onChange={e => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                        className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-[#0C2B80] focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
+                        className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-black focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
                           errors.email ? 'border-red-400' : 'border-[#3670FF]/15'
                         }`}
                       />
@@ -253,7 +253,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
 
                   {/* Phone Number Input */}
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-1 font-sans">
+                    <label className="block text-xs font-bold uppercase tracking-wider text-black mb-1 font-sans">
                       Phone Number *
                     </label>
                     <input
@@ -261,7 +261,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                       placeholder="+1 (555) 000-0000"
                       value={formData.phone}
                       onChange={e => setFormData(prev => ({ ...prev, phone: e.target.value }))}
-                      className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-[#0C2B80] focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
+                      className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-black focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
                         errors.phone ? 'border-red-400' : 'border-[#3670FF]/15'
                       }`}
                     />
@@ -270,7 +270,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
 
                   {/* Project Details Textarea */}
                   <div>
-                    <label className="block text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-1 font-sans">
+                    <label className="block text-xs font-bold uppercase tracking-wider text-black mb-1 font-sans">
                       Project Goals &amp; Requirements *
                     </label>
                     <textarea
@@ -278,7 +278,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                       placeholder="Briefly describe what you'd like to build, your goals, or current bottlenecks..."
                       value={formData.description}
                       onChange={e => setFormData(prev => ({ ...prev, description: e.target.value }))}
-                      className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-[#0C2B80] focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
+                      className={`w-full px-4 py-2.5 rounded-xl bg-white border text-sm font-sans text-black focus:outline-none focus:ring-2 focus:ring-[#3670FF] transition-all ${
                         errors.description ? 'border-red-400' : 'border-[#3670FF]/15'
                       }`}
                     />
@@ -288,7 +288,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ preselectedServi
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-[#F9D601] hover:bg-white text-[#0C2B80] hover:text-[#3670FF] font-sans font-bold text-xs sm:text-sm py-3.5 rounded-full shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] transition-all hover:scale-[1.008] active:scale-98 flex items-center justify-center space-x-2 mt-2 cursor-pointer"
+                    className="w-full bg-[#F9D601] hover:bg-white text-black hover:text-[#3670FF] font-sans font-bold text-xs sm:text-sm py-3.5 rounded-full shadow-[0_8px_25px_rgba(249,214,1,0.35)] hover:shadow-[0_12px_35px_rgba(255,255,255,0.45)] transition-all hover:scale-[1.008] active:scale-98 flex items-center justify-center space-x-2 mt-2 cursor-pointer"
                   >
                     {isSubmitting ? (
                       <span>Sending Your Request...</span>

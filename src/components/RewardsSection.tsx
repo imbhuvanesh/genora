@@ -14,11 +14,11 @@ export const RewardsSection: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full bg-transparent pt-6 sm:pt-8 md:pt-10 pb-8 sm:pb-10 md:pb-12 px-4 sm:px-8 md:px-12 text-[#0C2B80] overflow-hidden">
+    <section className="relative w-full bg-transparent pt-6 sm:pt-8 md:pt-10 pb-8 sm:pb-10 md:pb-12 px-4 sm:px-8 md:px-12 text-black overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Header Badge */}
         <div className="flex items-center justify-center mb-6">
-          <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-[#3670FF]/10 text-[#0C2B80] font-bold text-xs tracking-wider uppercase shadow-sm">
+          <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-[#3670FF]/10 text-black font-bold text-xs tracking-wider uppercase shadow-sm">
             <span>Core Disciplines // Three Foundations</span>
           </div>
         </div>
@@ -53,7 +53,7 @@ export const RewardsSection: React.FC = () => {
                 <div className="flex items-start justify-between">
                   <MaskedLineReveal
                     lines={["WE BUILD", "DIGITAL PRODUCTS"]}
-                    className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                    className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                     delay={0.1}
                   />
                   <div className="w-8 h-8 rounded-full bg-[#3670FF]/10 text-[#3670FF] flex items-center justify-center">
@@ -61,7 +61,7 @@ export const RewardsSection: React.FC = () => {
                   </div>
                 </div>
                 <FadeUpParagraph
-                  className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2.5 font-normal leading-relaxed"
+                  className="font-sans text-xs sm:text-[13px] text-black/70 mt-2.5 font-normal leading-relaxed"
                   delay={0.25}
                 >
                   high-performance <SlowHighlight>websites, apps &amp; custom software</SlowHighlight>
@@ -81,7 +81,7 @@ export const RewardsSection: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#F9D601] text-[#0C2B80] font-sans text-xs font-bold px-3 py-1 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
+                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#F9D601] text-black font-sans text-xs font-bold px-3 py-1 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
                     FAST &amp; SCALABLE
                   </div>
                 </div>
@@ -116,15 +116,15 @@ export const RewardsSection: React.FC = () => {
                 <div className="flex items-start justify-between">
                   <MaskedLineReveal
                     lines={["WE CREATE", "POWERFUL BRANDS"]}
-                    className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                    className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                     delay={0.15}
                   />
-                  <div className="w-8 h-8 rounded-full bg-[#F9D601]/30 text-[#0C2B80] flex items-center justify-center">
+                  <div className="w-8 h-8 rounded-full bg-[#F9D601]/30 text-black flex items-center justify-center">
                     <Zap className="w-4 h-4" />
                   </div>
                 </div>
                 <FadeUpParagraph
-                  className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2.5 font-normal leading-relaxed"
+                  className="font-sans text-xs sm:text-[13px] text-black/70 mt-2.5 font-normal leading-relaxed"
                   delay={0.3}
                 >
                   <SlowHighlight>brand identity</SlowHighlight>, graphic design &amp; <SlowHighlight>video production</SlowHighlight>
@@ -143,7 +143,7 @@ export const RewardsSection: React.FC = () => {
                     </div>
                   </div>
 
-                  <div className="absolute -bottom-4 right-2 bg-[#F9D601] text-[#0C2B80] font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
+                  <div className="absolute -bottom-4 right-2 bg-[#F9D601] text-black font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
                     <span>AESTHETICS</span>
                     <ArrowUpRight className="w-3 h-3" />
                   </div>
@@ -179,7 +179,7 @@ export const RewardsSection: React.FC = () => {
                 <div className="flex items-start justify-between">
                   <MaskedLineReveal
                     lines={["WE GROW", "YOUR BUSINESS"]}
-                    className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                    className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                     delay={0.2}
                   />
                   <div className="w-8 h-8 rounded-full bg-emerald-500/10 text-emerald-600 flex items-center justify-center">
@@ -187,7 +187,7 @@ export const RewardsSection: React.FC = () => {
                   </div>
                 </div>
                 <FadeUpParagraph
-                  className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2.5 font-normal leading-relaxed"
+                  className="font-sans text-xs sm:text-[13px] text-black/70 mt-2.5 font-normal leading-relaxed"
                   delay={0.35}
                 >
                   <SlowHighlight>Meta ad funnels</SlowHighlight>, SEO ranking &amp; <SlowHighlight>intelligent automation</SlowHighlight>
@@ -196,17 +196,17 @@ export const RewardsSection: React.FC = () => {
 
               {/* Bottom Graphic Badge */}
               <div className="mt-8 pt-4 pb-2 px-2 flex flex-col items-center justify-center">
-                <div className="relative bg-[#F9D601] text-[#0C2B80] rounded-3xl p-4 sm:p-5 w-full max-w-[240px] shadow-pill-neon border border-[#0C2B80]/10 select-none">
+                <div className="relative bg-[#F9D601] text-black rounded-3xl p-4 sm:p-5 w-full max-w-[240px] shadow-pill-neon border border-[#0C2B80]/10 select-none">
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-mono font-bold tracking-wider uppercase text-[#0C2B80]/75">
+                    <span className="text-[10px] font-mono font-bold tracking-wider uppercase text-black/75">
                       Client ROI Boost
                     </span>
-                    <TrendingUp className="w-4 h-4 text-[#0C2B80]" />
+                    <TrendingUp className="w-4 h-4 text-black" />
                   </div>
-                  <div className="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#0C2B80] mt-1">
+                  <div className="text-2xl sm:text-3xl font-extrabold tracking-tight text-black mt-1">
                     +310%
                   </div>
-                  <div className="text-[11px] font-bold tracking-tight text-[#0C2B80]/80">
+                  <div className="text-[11px] font-bold tracking-tight text-black/80">
                     SCALABLE GROWTH
                   </div>
                 </div>

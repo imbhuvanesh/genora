@@ -7,7 +7,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <section id="about" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-[#0C2B80] bg-transparent overflow-hidden">
+    <section id="about" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-black bg-transparent overflow-hidden">
       <div className="max-w-6xl mx-auto">
         
         {/* Section Header */}
@@ -21,13 +21,13 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
             
             <MaskedLineReveal
               lines={["WE COMBINE TECHNOLOGY,", "CREATIVITY & MARKETING."]}
-              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#0C2B80] leading-[1.12]"
+              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black leading-[1.12]"
               delay={0.1}
             />
           </div>
           
           <div className="mt-4 md:mt-0 max-w-sm">
-            <p className="text-sm sm:text-base text-[#0C2B80]/80 font-normal font-sans leading-relaxed">
+            <p className="text-sm sm:text-base text-black/80 font-normal font-sans leading-relaxed">
               We are a creative technology and digital marketing agency providing complete digital solutions to businesses, startups and individuals.
             </p>
           </div>
@@ -37,11 +37,11 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
         <div className="relative bg-white rounded-[36px] p-6 sm:p-10 md:p-12 mb-8 border border-[#3670FF]/15 shadow-card-soft overflow-hidden">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
             <div className="lg:col-span-7">
-              <h3 className="font-sans font-light text-2xl sm:text-3xl text-[#0C2B80] leading-snug">
+              <h3 className="font-sans font-light text-2xl sm:text-3xl text-black leading-snug">
                 "Our goal is to help brands <SlowHighlight>establish their online presence</SlowHighlight>, improve their digital identity and <SlowHighlight>grow their business</SlowHighlight>."
               </h3>
               
-              <p className="mt-4 text-sm sm:text-base text-[#0C2B80]/80 font-normal font-sans leading-relaxed">
+              <p className="mt-4 text-sm sm:text-base text-black/80 font-normal font-sans leading-relaxed">
                 In today's digital landscape, generic websites and disconnected marketing fail to convert. Genora unites world-class <SlowHighlight>software engineering</SlowHighlight> with strategic design and high-yield <SlowHighlight>marketing funnels</SlowHighlight> so your company leads its market.
               </p>
 
@@ -49,7 +49,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                 {['Verified Delivery Guarantee', 'Direct Partner Access', 'Rapid Turnarounds', 'Enterprise Architecture'].map((item) => (
                   <span
                     key={item}
-                    className="inline-flex items-center space-x-1.5 bg-[#EFEFEF] px-3.5 py-1.5 rounded-full text-xs font-medium text-[#0C2B80] border border-[#3670FF]/10 shadow-sm"
+                    className="inline-flex items-center space-x-1.5 bg-[#EFEFEF] px-3.5 py-1.5 rounded-full text-xs font-medium text-black border border-[#3670FF]/10 shadow-sm"
                   >
                     <CheckCircle2 className="w-3.5 h-3.5 text-[#3670FF]" />
                     <span>{item}</span>
@@ -69,8 +69,8 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                   key={stat.label}
                   className="bg-[#EFEFEF] rounded-2xl p-4 sm:p-5 border border-[#3670FF]/10 shadow-card-soft hover:shadow-card-hover transition-all"
                 >
-                  <div className="font-sans font-bold text-2xl sm:text-3xl text-[#0C2B80]">{stat.number}</div>
-                  <div className="text-xs text-[#0C2B80]/60 font-normal font-sans mt-1">{stat.label}</div>
+                  <div className="font-sans font-bold text-2xl sm:text-3xl text-black">{stat.number}</div>
+                  <div className="text-xs text-black/60 font-normal font-sans mt-1">{stat.label}</div>
                 </div>
               ))}
             </div>
@@ -94,11 +94,11 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
               <div>
                 <MaskedLineReveal
                   lines={["MODERN", "TECHNOLOGY"]}
-                  className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                  className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                   delay={0.1}
                 />
                 <FadeUpParagraph
-                  className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2.5 font-normal leading-relaxed"
+                  className="font-sans text-xs sm:text-[13px] text-black/70 mt-2.5 font-normal leading-relaxed"
                   delay={0.2}
                 >
                   robust engineering, high-speed web apps &amp; custom software architectures
@@ -118,7 +118,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                     </div>
                   </div>
 
-                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#F9D601] text-[#0C2B80] font-sans text-xs font-bold px-3.5 py-1.5 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
+                  <div className="absolute -right-2 sm:-right-4 -bottom-3 bg-[#F9D601] text-black font-sans text-xs font-bold px-3.5 py-1.5 rounded-full shadow-pill-neon border border-[#0C2B80]/10 select-none">
                     HIGH PERFORMANCE
                   </div>
                 </div>
@@ -140,11 +140,11 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
               <div>
                 <MaskedLineReveal
                   lines={["BOLD", "CREATIVITY"]}
-                  className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                  className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                   delay={0.15}
                 />
                 <FadeUpParagraph
-                  className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2.5 font-normal leading-relaxed"
+                  className="font-sans text-xs sm:text-[13px] text-black/70 mt-2.5 font-normal leading-relaxed"
                   delay={0.25}
                 >
                   distinctive brand systems, poster design &amp; high-converting video production
@@ -163,7 +163,7 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
                     </div>
                   </div>
 
-                  <div className="absolute -bottom-4 right-2 bg-[#F9D601] text-[#0C2B80] font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
+                  <div className="absolute -bottom-4 right-2 bg-[#F9D601] text-black font-sans text-[11px] font-bold px-3 py-1 rounded-full shadow-md border border-[#0C2B80]/10 flex items-center space-x-1">
                     <span>AESTHETICS</span>
                     <ArrowUpRight className="w-3 h-3" />
                   </div>
@@ -186,11 +186,11 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
               <div>
                 <MaskedLineReveal
                   lines={["SMART", "MARKETING"]}
-                  className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                  className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                   delay={0.2}
                 />
                 <FadeUpParagraph
-                  className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2.5 font-normal leading-relaxed"
+                  className="font-sans text-xs sm:text-[13px] text-black/70 mt-2.5 font-normal leading-relaxed"
                   delay={0.3}
                 >
                   Meta campaigns, organic growth &amp; intelligent automated sales pipelines
@@ -201,12 +201,12 @@ export const AboutSection: React.FC<{ onExploreServices: () => void }> = ({ onEx
               <div className="mt-10 sm:mt-12 pt-4 pb-5 px-2 flex flex-col items-center justify-center">
                 <div className="relative w-full max-w-[250px]">
                   <div className="relative bg-[#F9D601] rounded-[24px] px-5 py-4 shadow-bubble-neon border border-[#0C2B80]/15 flex flex-col items-center justify-center transition-transform duration-200 hover:scale-[1.03]">
-                    <div className="font-sans text-[11px] font-bold text-[#0C2B80]/75 tracking-wide uppercase">
+                    <div className="font-sans text-[11px] font-bold text-black/75 tracking-wide uppercase">
                       CLIENT PIPELINE BOOST
                     </div>
-                    <div className="font-sans text-2xl sm:text-[26px] font-bold text-[#0C2B80] tracking-tight mt-0.5 flex items-center space-x-1">
+                    <div className="font-sans text-2xl sm:text-[26px] font-bold text-black tracking-tight mt-0.5 flex items-center space-x-1">
                       <span>10X VELOCITY</span>
-                      <ArrowUpRight className="w-5 h-5 text-[#0C2B80] stroke-[3]" />
+                      <ArrowUpRight className="w-5 h-5 text-black stroke-[3]" />
                     </div>
                   </div>
                 </div>

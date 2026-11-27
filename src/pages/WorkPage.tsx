@@ -21,7 +21,7 @@ export const WorkPage: React.FC = () => {
       {/* =========================================================================
           PAGE HERO BANNER: DEDICATED WORK HEADER (PURE WHITE #FFFFFF)
          ========================================================================= */}
-      <div className="w-full max-w-[1260px] bg-white rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-6 sm:p-10 md:p-12 text-[#0C2B80] text-center shadow-[0_20px_60px_-15px_rgba(54,112,255,0.12)] border border-[#3670FF]/15 my-2 sm:my-3 relative overflow-hidden">
+      <div className="w-full max-w-[1260px] bg-white rounded-[36px] sm:rounded-[48px] md:rounded-[56px] p-6 sm:p-10 md:p-12 text-black text-center shadow-[0_20px_60px_-15px_rgba(54,112,255,0.12)] border border-[#3670FF]/15 my-2 sm:my-3 relative overflow-hidden">
         {/* Hand-Drawn Container Corners */}
         <div className="absolute top-3 left-4 z-20 opacity-70 pointer-events-none">
           <DoodleCorner position="top-left" color="#3670FF" className="w-8 h-8 sm:w-10 sm:h-10" />
@@ -38,13 +38,13 @@ export const WorkPage: React.FC = () => {
 
         <MaskedLineReveal
           lines={["PROVEN COMMERCIAL WORK", "& CLIENT OUTCOMES."]}
-          className="font-sans text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-[#0C2B80] leading-[1.08] max-w-4xl mx-auto"
+          className="font-sans text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-black leading-[1.08] max-w-4xl mx-auto"
           delay={0.1}
         />
 
         <div className="max-w-2xl mx-auto mt-4">
           <FadeUpParagraph
-            className="text-[#0C2B80]/80 text-sm sm:text-base md:text-lg leading-relaxed font-normal"
+            className="text-black/80 text-sm sm:text-base md:text-lg leading-relaxed font-normal"
             delay={0.25}
           >
             Explore our portfolio of high-performing web applications, mobile platforms, visual brand identities, and profitable paid acquisition funnels.
@@ -56,15 +56,15 @@ export const WorkPage: React.FC = () => {
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-3xl mx-auto">
           <div className="bg-[#EFEFEF] border border-[#3670FF]/10 rounded-2xl p-4 flex flex-col items-center">
             <span className="text-2xl sm:text-3xl font-extrabold text-[#3670FF]">+310%</span>
-            <span className="text-xs text-[#0C2B80]/75 font-sans mt-0.5">Average Client ROI Boost</span>
+            <span className="text-xs text-black/75 font-sans mt-0.5">Average Client ROI Boost</span>
           </div>
           <div className="bg-[#EFEFEF] border border-[#3670FF]/10 rounded-2xl p-4 flex flex-col items-center">
-            <span className="text-2xl sm:text-3xl font-extrabold text-[#0C2B80]">100%</span>
-            <span className="text-xs text-[#0C2B80]/75 font-sans mt-0.5">On-Time Sprint Delivery</span>
+            <span className="text-2xl sm:text-3xl font-extrabold text-black">100%</span>
+            <span className="text-xs text-black/75 font-sans mt-0.5">On-Time Sprint Delivery</span>
           </div>
           <div className="bg-[#EFEFEF] border border-[#3670FF]/10 rounded-2xl p-4 flex flex-col items-center">
             <span className="text-2xl sm:text-3xl font-extrabold text-[#F9D601]">5.0 ★</span>
-            <span className="text-xs text-[#0C2B80]/75 font-sans mt-0.5">Verified Client Rating</span>
+            <span className="text-xs text-black/75 font-sans mt-0.5">Verified Client Rating</span>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@ export const WorkPage: React.FC = () => {
         </p>
         <button
           onClick={() => navigate('/contact')}
-          className="px-7 py-3.5 rounded-full bg-[#F9D601] text-[#0C2B80] hover:bg-white hover:text-[#3670FF] font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
+          className="px-7 py-3.5 rounded-full bg-[#F9D601] text-black hover:bg-white hover:text-[#3670FF] font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
         >
           <span>Kick Off Your Project</span>
           <ArrowUpRight className="w-4 h-4" />

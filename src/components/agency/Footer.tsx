@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
                 className="flex items-center space-x-2.5 mb-4 cursor-pointer group select-none"
                 onClick={scrollToTop}
               >
-                <div className="w-9 h-9 rounded-xl bg-[#F9D601] text-[#0C2B80] flex items-center justify-center font-sans font-black text-base shadow-sm group-hover:scale-105 transition-transform duration-200">
+                <div className="w-9 h-9 rounded-xl bg-[#F9D601] text-black flex items-center justify-center font-sans font-black text-base shadow-sm group-hover:scale-105 transition-transform duration-200">
                   G
                 </div>
                 <div className="flex flex-col">
@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="w-8 h-8 rounded-full bg-white/15 hover:bg-[#F9D601] text-white hover:text-[#0C2B80] border border-white/20 flex items-center justify-center transition-all duration-200"
+                  className="w-8 h-8 rounded-full bg-white/15 hover:bg-[#F9D601] text-white hover:text-black border border-white/20 flex items-center justify-center transition-all duration-200"
                 >
                   {svg}
                 </a>

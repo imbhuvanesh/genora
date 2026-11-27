@@ -18,15 +18,18 @@
   }
   body {
     background-color: var(--color-bright-gray, #EFEFEF);
-    color: var(--color-deep-blue, #0C2B80);
+    color: #000000;
     font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
   }
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+  }
   ::selection {
     background-color: var(--color-golden, #F9D601);
-    color: var(--color-deep-blue, #0C2B80);
+    color: #000000;
   }
 }
 
@@ -139,7 +142,7 @@
 
 .tab.active {
   background: #F9D601;
-  color: #0C2B80;
+  color: #000000;
   box-shadow: 0 8px 24px -4px rgba(249, 214, 1, 0.45);
 }
 

@@ -3,7 +3,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 
 const EASE_BEZIER = [0.19, 1, 0.22, 1] as const;
 
-// Exact Neon Green Hand-Drawn Hashtag # symbol matching reference image
+// Exact Golden Hand-Drawn Hashtag # symbol matching reference palette
 export const HeroHashtag: React.FC<{ className?: string }> = ({ className = '' }) => {
   const shouldReduceMotion = useReducedMotion();
 
@@ -13,14 +13,19 @@ export const HeroHashtag: React.FC<{ className?: string }> = ({ className = '' }
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
       initial={{ scale: shouldReduceMotion ? 1 : 0, rotate: -18, opacity: 0 }}
-      animate={{ scale: 1, rotate: -4, opacity: 1 }}
-      transition={{
-        type: 'spring',
-        stiffness: 180,
-        damping: 24,
-        delay: 0.2,
+      animate={{ 
+        scale: 1, 
+        rotate: shouldReduceMotion ? -4 : [-4, 2, -4], 
+        y: shouldReduceMotion ? 0 : [-4, 4, -4],
+        opacity: 1 
       }}
-      className={`select-none filter drop-shadow-[0_0_18px_rgba(168,255,0,0.7)] drop-shadow-[0_8px_16px_rgba(0,10,40,0.3)] ${className}`}
+      transition={{
+        scale: { type: 'spring', stiffness: 180, damping: 24, delay: 0.2 },
+        opacity: { duration: 0.5, delay: 0.2 },
+        rotate: { repeat: Infinity, duration: 6, ease: 'easeInOut' },
+        y: { repeat: Infinity, duration: 4.5, ease: 'easeInOut' },
+      }}
+      className={`select-none filter drop-shadow-[0_0_20px_rgba(249,214,1,0.8)] drop-shadow-[0_8px_16px_rgba(0,10,40,0.3)] ${className}`}
     >
       <motion.path 
         d="M 52 14 L 32 116" 
@@ -185,7 +190,7 @@ export const GetStartedBadge: React.FC<{ onClick?: () => void; className?: strin
           d="M 100, 100 m -70, 0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" 
           fill="none"
         />
-        <text className="font-archivo text-[14.5px] uppercase tracking-[0.22em] font-black fill-[#0C2B80]">
+        <text className="font-archivo text-[14.5px] uppercase tracking-[0.22em] font-black fill-black">
           <textPath href="#badgeCirclePath" startOffset="0%">
             START A PROJECT • EXPLORE SERVICES •
           </textPath>
@@ -552,7 +557,7 @@ export const DoodleWashiTape: React.FC<{ className?: string; color?: string; tex
         />
       </svg>
       {text && (
-        <span className="relative z-10 font-mono text-[10px] sm:text-xs font-bold text-[#0C2B80] uppercase tracking-wider">
+        <span className="relative z-10 font-mono text-[10px] sm:text-xs font-bold text-black uppercase tracking-wider">
           {text}
         </span>
       )}

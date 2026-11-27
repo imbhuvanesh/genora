@@ -48,28 +48,28 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
   const [activeServiceModal, setActiveServiceModal] = useState<ServiceCategory | null>(null);
 
   return (
-    <section id="services" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-[#0C2B80] bg-transparent overflow-hidden">
+    <section id="services" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-black bg-transparent overflow-hidden">
       <div className="max-w-6xl mx-auto">
 
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 sm:mb-8 pb-4 border-b border-[#0C2B80]/[0.15]">
           <div className="max-w-2xl">
             <div className="flex items-center space-x-3 mb-3">
-              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-[#0C2B80]/10 text-[#0C2B80] font-bold text-xs tracking-wider uppercase">
+              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-[#0C2B80]/10 text-black font-bold text-xs tracking-wider uppercase">
                 <span>Full-Spectrum Solutions</span>
               </FadeUpText>
             </div>
             
             <MaskedLineReveal
               lines={["OUR CORE DISCIPLINES", "& DIGITAL SERVICES."]}
-              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#0C2B80] leading-[1.12]"
+              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black leading-[1.12]"
               delay={0.1}
             />
           </div>
           
           <div className="mt-4 md:mt-0 max-w-md">
             <FadeUpParagraph
-              className="text-sm sm:text-base text-[#0C2B80]/85 font-medium font-sans leading-relaxed"
+              className="text-sm sm:text-base text-black/85 font-medium font-sans leading-relaxed"
               delay={0.25}
             >
               Eight cohesive disciplines covering your entire digital ecosystem — from <SlowHighlight>high-performance engineering</SlowHighlight> and enterprise ERP systems to AI automation, cinematic video and <SlowHighlight>data-driven marketing</SlowHighlight>.
@@ -118,11 +118,11 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                       </div>
                       <div className="flex items-center space-x-2">
                         {service.popularTag && (
-                          <span className="text-[10px] font-bold uppercase tracking-wider bg-[#F9D601] text-[#0C2B80] px-2.5 py-1 rounded-full shadow-sm">
+                          <span className="text-[10px] font-bold uppercase tracking-wider bg-[#F9D601] text-black px-2.5 py-1 rounded-full shadow-sm">
                             {service.popularTag}
                           </span>
                         )}
-                        <span className="font-sans font-bold text-xs text-[#0C2B80]/40">
+                        <span className="font-sans font-bold text-xs text-black/40">
                           {service.number}
                         </span>
                       </div>
@@ -131,13 +131,13 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                     {/* Heading with smooth line reveal */}
                     <MaskedLineReveal
                       lines={lines}
-                      className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                      className="font-sans text-xl sm:text-[22px] font-bold uppercase tracking-tight text-black leading-[1.1]"
                       delay={0.1 + (idx % 3) * 0.05}
                     />
 
                     {/* Subtitle / Tagline with fade up */}
                     <FadeUpParagraph
-                      className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/70 mt-2 font-normal leading-relaxed"
+                      className="font-sans text-xs sm:text-[13px] text-black/70 mt-2 font-normal leading-relaxed"
                       delay={0.2 + (idx % 3) * 0.05}
                     >
                       {service.tagline}
@@ -148,14 +148,14 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                       {service.subServices.slice(0, 5).map((sub) => (
                         <div
                           key={sub}
-                          className="bg-[#EFEFEF] rounded-xl px-3 py-1.5 flex items-center space-x-2 border border-[#0C2B80]/[0.04] shadow-sm text-xs font-medium text-[#0C2B80]"
+                          className="bg-[#EFEFEF] rounded-xl px-3 py-1.5 flex items-center space-x-2 border border-[#0C2B80]/[0.04] shadow-sm text-xs font-medium text-black"
                         >
                           <CheckCircle2 className="w-3.5 h-3.5 text-[#3670FF] flex-shrink-0" />
                           <span>{sub}</span>
                         </div>
                       ))}
                       {service.subServices.length > 5 && (
-                        <div className="text-[11px] text-[#0C2B80]/50 font-medium pl-1 pt-0.5">
+                        <div className="text-[11px] text-black/50 font-medium pl-1 pt-0.5">
                           +{service.subServices.length - 5} more services
                         </div>
                       )}
@@ -164,10 +164,10 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
 
                   {/* Clean Service Card Action Footer */}
                   <div className="mt-8 pt-4 border-t border-[#0C2B80]/[0.08] flex items-center justify-between">
-                    <span className="text-xs font-semibold text-[#0C2B80]/60 font-sans group-hover:text-[#3670FF] transition-colors">
+                    <span className="text-xs font-semibold text-black/60 font-sans group-hover:text-[#3670FF] transition-colors">
                       View Service Scope &amp; Deliverables
                     </span>
-                    <div className="w-8 h-8 rounded-full bg-[#EFEFEF] group-hover:bg-[#3670FF] text-[#0C2B80] group-hover:text-white flex items-center justify-center transition-all duration-200">
+                    <div className="w-8 h-8 rounded-full bg-[#EFEFEF] group-hover:bg-[#3670FF] text-black group-hover:text-white flex items-center justify-center transition-all duration-200">
                       <ArrowUpRight className="w-4 h-4" />
                     </div>
                   </div>
@@ -182,32 +182,32 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
       {/* Service Detail Modal */}
       {activeServiceModal && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#0C2B80]/60 backdrop-blur-md">
-          <div className="relative w-full max-w-lg bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-[#3670FF]/25 text-[#0C2B80]">
+          <div className="relative w-full max-w-lg bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-[#3670FF]/25 text-black">
             <div className="flex items-center justify-between pb-4 border-b border-zinc-100">
               <div>
-                <span className="text-xs font-bold uppercase text-[#0C2B80]/50 font-sans">{activeServiceModal.number} • Service Spec</span>
-                <h3 className="font-sans font-bold text-2xl text-[#0C2B80] mt-0.5">
+                <span className="text-xs font-bold uppercase text-black/50 font-sans">{activeServiceModal.number} • Service Spec</span>
+                <h3 className="font-sans font-bold text-2xl text-black mt-0.5">
                   {activeServiceModal.title}
                 </h3>
               </div>
               <button
                 onClick={() => setActiveServiceModal(null)}
-                className="w-8 h-8 rounded-full bg-[#EFEFEF] hover:bg-[#3670FF] text-[#0C2B80] hover:text-white flex items-center justify-center font-bold transition-colors"
+                className="w-8 h-8 rounded-full bg-[#EFEFEF] hover:bg-[#3670FF] text-black hover:text-white flex items-center justify-center font-bold transition-colors"
               >
                 ✕
               </button>
             </div>
 
             <div className="py-4 space-y-4">
-              <p className="text-sm text-[#0C2B80]/80 leading-relaxed font-sans">
+              <p className="text-sm text-black/80 leading-relaxed font-sans">
                 {activeServiceModal.description}
               </p>
 
               <div>
-                <h4 className="text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-2 font-sans">Deliverables:</h4>
+                <h4 className="text-xs font-bold uppercase tracking-wider text-black mb-2 font-sans">Deliverables:</h4>
                 <div className="grid grid-cols-1 gap-2">
                   {activeServiceModal.deliverables.map((d) => (
-                    <div key={d} className="bg-[#EFEFEF] p-2.5 rounded-xl text-xs font-medium text-[#0C2B80] flex items-center space-x-2 border border-[#0C2B80]/[0.06]">
+                    <div key={d} className="bg-[#EFEFEF] p-2.5 rounded-xl text-xs font-medium text-black flex items-center space-x-2 border border-[#0C2B80]/[0.06]">
                       <CheckCircle2 className="w-3.5 h-3.5 text-[#3670FF]" />
                       <span>{d}</span>
                     </div>
@@ -219,7 +219,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
             <div className="pt-4 border-t border-zinc-100 flex items-center justify-between">
               <button
                 onClick={() => setActiveServiceModal(null)}
-                className="text-xs font-semibold text-[#0C2B80]/60 hover:text-[#0C2B80] font-sans"
+                className="text-xs font-semibold text-black/60 hover:text-black font-sans"
               >
                 Close
               </button>
@@ -229,7 +229,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                   setActiveServiceModal(null);
                   onSelectService(title);
                 }}
-                className="px-5 py-2.5 bg-[#F9D601] hover:bg-[#3670FF] text-[#0C2B80] hover:text-white font-sans text-xs font-bold rounded-full transition-colors shadow-md flex items-center space-x-1.5"
+                className="px-5 py-2.5 bg-[#F9D601] hover:bg-[#3670FF] text-black hover:text-white font-sans text-xs font-bold rounded-full transition-colors shadow-md flex items-center space-x-1.5"
               >
                 <span>Request {activeServiceModal.title}</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />

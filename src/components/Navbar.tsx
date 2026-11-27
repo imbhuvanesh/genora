@@ -214,7 +214,7 @@ export const Navbar: React.FC = () => {
               {/* Start Project CTA Button */}
               <Link
                 to="/contact"
-                className="px-3.5 sm:px-4 py-1.5 rounded-full bg-[#F9D601] hover:bg-white text-[#0C2B80] hover:text-[#3670FF] font-sans font-bold text-xs tracking-tight flex items-center gap-1.5 shadow-[0_0_12px_rgba(249,214,1,0.35)] hover:shadow-[0_0_18px_rgba(255,255,255,0.45)] transition-all duration-200 active:scale-95 shrink-0 focus:outline-none"
+                className="px-3.5 sm:px-4 py-1.5 rounded-full bg-[#F9D601] hover:bg-white text-black hover:text-[#3670FF] font-sans font-bold text-xs tracking-tight flex items-center gap-1.5 shadow-[0_0_12px_rgba(249,214,1,0.35)] hover:shadow-[0_0_18px_rgba(255,255,255,0.45)] transition-all duration-200 active:scale-95 shrink-0 focus:outline-none"
               >
                 <span>Start Project</span>
                 <ArrowUpRight className="w-3.5 h-3.5 stroke-[2.5]" />
@@ -284,7 +284,7 @@ export const Navbar: React.FC = () => {
               <Link
                 to="/contact"
                 onClick={() => setExpanded(false)}
-                className="w-full sm:w-auto text-center justify-center px-4 py-2 sm:py-1.5 rounded-xl sm:rounded-full bg-[#F9D601] hover:bg-white text-[#0C2B80] hover:text-[#3670FF] font-sans font-bold text-xs tracking-tight flex items-center gap-1.5 shadow-[0_0_12px_rgba(249,214,1,0.35)] hover:shadow-[0_0_18px_rgba(255,255,255,0.45)] transition-all duration-200 active:scale-95 shrink-0 focus:outline-none mt-1 sm:mt-0"
+                className="w-full sm:w-auto text-center justify-center px-4 py-2 sm:py-1.5 rounded-xl sm:rounded-full bg-[#F9D601] hover:bg-white text-black hover:text-[#3670FF] font-sans font-bold text-xs tracking-tight flex items-center gap-1.5 shadow-[0_0_12px_rgba(249,214,1,0.35)] hover:shadow-[0_0_18px_rgba(255,255,255,0.45)] transition-all duration-200 active:scale-95 shrink-0 focus:outline-none mt-1 sm:mt-0"
               >
                 <span>Start Project</span>
                 <ArrowUpRight className="w-3.5 h-3.5 stroke-[2.5]" />

@@ -92,16 +92,16 @@ export const ServicesPage: React.FC = () => {
       </div>
 
       {/* Bottom Conversion Callout (Pure White #FFFFFF) */}
-      <div className="w-full max-w-[1260px] bg-white rounded-[36px] sm:rounded-[48px] p-8 sm:p-12 text-[#0C2B80] text-center shadow-[0_20px_60px_-15px_rgba(54,112,255,0.12)] border border-[#3670FF]/15 my-2 sm:my-3">
-        <h3 className="font-sans font-bold text-2xl sm:text-4xl text-[#0C2B80] mb-3">
+      <div className="w-full max-w-[1260px] bg-white rounded-[36px] sm:rounded-[48px] p-8 sm:p-12 text-black text-center shadow-[0_20px_60px_-15px_rgba(54,112,255,0.12)] border border-[#3670FF]/15 my-2 sm:my-3">
+        <h3 className="font-sans font-bold text-2xl sm:text-4xl text-black mb-3">
           Need a Custom Solution for Your Brand?
         </h3>
-        <p className="text-[#0C2B80]/80 text-sm sm:text-base max-w-xl mx-auto mb-6">
+        <p className="text-black/80 text-sm sm:text-base max-w-xl mx-auto mb-6">
           Schedule a discovery call with our team. We'll audit your digital ecosystem and outline a custom roadmap.
         </p>
         <button
           onClick={() => navigate('/contact')}
-          className="px-7 py-3.5 rounded-full bg-[#F9D601] hover:bg-[#3670FF] text-[#0C2B80] hover:text-white font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
+          className="px-7 py-3.5 rounded-full bg-[#F9D601] hover:bg-[#3670FF] text-black hover:text-white font-sans font-bold text-sm tracking-tight inline-flex items-center space-x-2 shadow-lg transition-colors cursor-pointer"
         >
           <span>Request Custom Proposal</span>
           <ArrowUpRight className="w-4 h-4" />

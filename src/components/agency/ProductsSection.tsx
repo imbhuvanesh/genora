@@ -87,7 +87,7 @@ export const ProductsSection: React.FC = () => {
               onClick={() => setActiveCategory(cat)}
               className={`px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-sans tracking-wide transition-all cursor-pointer ${
                 activeCategory === cat
-                  ? 'bg-[#F9D601] text-[#0C2B80] font-bold shadow-md scale-[1.02]'
+                  ? 'bg-[#F9D601] text-black font-bold shadow-md scale-[1.02]'
                   : 'bg-white/15 text-white/90 hover:bg-white/25 font-medium'
               }`}
             >
@@ -123,7 +123,7 @@ export const ProductsSection: React.FC = () => {
                     ease: [0.16, 1, 0.3, 1] as const,
                   }}
                   whileHover={{ y: -6, transition: { duration: 0.35, ease: [0.19, 1, 0.22, 1] } }}
-                  className="relative h-full bg-white rounded-[32px] p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 shadow-card-soft hover:shadow-card-hover border border-[#3670FF]/15 text-[#0C2B80] overflow-hidden"
+                  className="relative h-full bg-white rounded-[32px] p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 shadow-card-soft hover:shadow-card-hover border border-[#3670FF]/15 text-black overflow-hidden"
                   style={{ willChange: 'clip-path, transform, opacity' }}
                 >
                   <div className="relative z-10">
@@ -132,29 +132,29 @@ export const ProductsSection: React.FC = () => {
                       <div className="w-12 h-12 rounded-2xl bg-[#3670FF]/10 text-[#3670FF] flex items-center justify-center shadow-sm">
                         <Icon className="w-6 h-6" />
                       </div>
-                      <span className="text-[10.5px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#F9D601] text-[#0C2B80] border border-[#0C2B80]/[0.08]">
+                      <span className="text-[10.5px] font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-[#F9D601] text-black border border-[#0C2B80]/[0.08]">
                         {product.badge}
                       </span>
                     </div>
 
                     {/* Metric Highlight Pill */}
-                    <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-[#EFEFEF] text-[#0C2B80] text-[11px] font-mono font-medium mb-3">
+                    <div className="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full bg-[#EFEFEF] text-black text-[11px] font-mono font-medium mb-3">
                       <span className="text-[#3670FF] font-bold">{product.previewStats.label}:</span>
                       <span>{product.previewStats.value}</span>
                     </div>
 
                     {/* Product Name */}
-                    <h3 className="font-sans text-xl sm:text-[22px] font-bold tracking-tight text-[#0C2B80] leading-snug">
+                    <h3 className="font-sans text-xl sm:text-[22px] font-bold tracking-tight text-black leading-snug">
                       {product.name}
                     </h3>
 
                     {/* Tagline */}
-                    <p className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/75 font-medium mt-1 leading-snug">
+                    <p className="font-sans text-xs sm:text-[13px] text-black/75 font-medium mt-1 leading-snug">
                       {product.tagline}
                     </p>
 
                     {/* Description */}
-                    <p className="font-sans text-xs text-[#0C2B80]/65 mt-2.5 leading-relaxed">
+                    <p className="font-sans text-xs text-black/65 mt-2.5 leading-relaxed">
                       {product.description}
                     </p>
 
@@ -163,7 +163,7 @@ export const ProductsSection: React.FC = () => {
                       {product.techStack.map((tech) => (
                         <span
                           key={tech}
-                          className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-[#EFEFEF] text-[#0C2B80] border border-[#0C2B80]/[0.06]"
+                          className="text-[10px] font-mono px-2 py-0.5 rounded-md bg-[#EFEFEF] text-black border border-[#0C2B80]/[0.06]"
                         >
                           {tech}
                         </span>
@@ -172,11 +172,11 @@ export const ProductsSection: React.FC = () => {
 
                     {/* Key Features List */}
                     <div className="mt-4 pt-3.5 border-t border-[#0C2B80]/[0.08] space-y-1.5">
-                      <div className="text-[11px] font-bold uppercase tracking-wider text-[#0C2B80]">
+                      <div className="text-[11px] font-bold uppercase tracking-wider text-black">
                         Core Highlights
                       </div>
                       {product.features.slice(0, 3).map((feat, fIdx) => (
-                        <div key={fIdx} className="flex items-start space-x-2 text-xs text-[#0C2B80]/85">
+                        <div key={fIdx} className="flex items-start space-x-2 text-xs text-black/85">
                           <CheckCircle2 className="w-3.5 h-3.5 text-[#3670FF] shrink-0 mt-0.5" />
                           <span className="line-clamp-2">{feat}</span>
                         </div>
@@ -186,7 +186,7 @@ export const ProductsSection: React.FC = () => {
 
                   {/* Bottom Action Area */}
                   <div className="relative z-10 mt-6 pt-4 border-t border-[#0C2B80]/[0.08] flex flex-col space-y-2.5">
-                    <div className="text-[11px] font-mono text-[#0C2B80]/60 truncate">
+                    <div className="text-[11px] font-mono text-black/60 truncate">
                       {product.pricingPlaceholder}
                     </div>
 
@@ -201,7 +201,7 @@ export const ProductsSection: React.FC = () => {
 
                       <button
                         onClick={() => setSelectedProductModal(product)}
-                        className="p-2.5 rounded-xl bg-[#EFEFEF] hover:bg-[#3670FF]/15 text-[#0C2B80] transition-colors cursor-pointer"
+                        className="p-2.5 rounded-xl bg-[#EFEFEF] hover:bg-[#3670FF]/15 text-black transition-colors cursor-pointer"
                         title="View Full Architecture Specs"
                       >
                         <Info className="w-4 h-4" />
@@ -233,12 +233,12 @@ export const ProductsSection: React.FC = () => {
               exit={{ scale: 0.92, y: 20 }}
               transition={{ duration: 0.3, ease: [0.19, 1, 0.22, 1] }}
               onClick={(e) => e.stopPropagation()}
-              className="relative w-full max-w-2xl bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-[#3670FF]/25 text-[#0C2B80] overflow-hidden"
+              className="relative w-full max-w-2xl bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-[#3670FF]/25 text-black overflow-hidden"
             >
               {/* Close Button */}
               <button
                 onClick={() => setSelectedProductModal(null)}
-                className="absolute top-5 right-5 p-2 rounded-full bg-[#EFEFEF] hover:bg-[#3670FF] text-[#0C2B80] hover:text-white transition-colors cursor-pointer"
+                className="absolute top-5 right-5 p-2 rounded-full bg-[#EFEFEF] hover:bg-[#3670FF] text-black hover:text-white transition-colors cursor-pointer"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -246,32 +246,32 @@ export const ProductsSection: React.FC = () => {
               <div className="flex items-center space-x-2 text-xs font-mono uppercase tracking-widest text-[#3670FF] font-bold mb-2">
                 <span>{selectedProductModal.category}</span>
                 <span>•</span>
-                <span className="px-2 py-0.5 rounded-full bg-[#F9D601] text-[#0C2B80]">
+                <span className="px-2 py-0.5 rounded-full bg-[#F9D601] text-black">
                   {selectedProductModal.badge}
                 </span>
               </div>
 
-              <h3 className="font-sans text-2xl sm:text-3xl font-bold tracking-tight text-[#0C2B80]">
+              <h3 className="font-sans text-2xl sm:text-3xl font-bold tracking-tight text-black">
                 {selectedProductModal.name}
               </h3>
-              <p className="text-[#0C2B80]/75 text-sm font-medium mt-1">
+              <p className="text-black/75 text-sm font-medium mt-1">
                 {selectedProductModal.tagline}
               </p>
 
-              <p className="text-[#0C2B80]/70 text-xs sm:text-sm mt-3 leading-relaxed">
+              <p className="text-black/70 text-xs sm:text-sm mt-3 leading-relaxed">
                 {selectedProductModal.description}
               </p>
 
               {/* Tech Stack */}
               <div className="mt-4 pt-3 border-t border-[#0C2B80]/[0.08]">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-2">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-black mb-2">
                   Architecture &amp; Frameworks
                 </h4>
                 <div className="flex flex-wrap gap-2">
                   {selectedProductModal.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="text-xs font-mono px-3 py-1 rounded-lg bg-[#EFEFEF] text-[#0C2B80] border border-[#0C2B80]/[0.08]"
+                      className="text-xs font-mono px-3 py-1 rounded-lg bg-[#EFEFEF] text-black border border-[#0C2B80]/[0.08]"
                     >
                       {tech}
                     </span>
@@ -281,12 +281,12 @@ export const ProductsSection: React.FC = () => {
 
               {/* Deliverables Checklist */}
               <div className="mt-4 pt-3 border-t border-[#0C2B80]/[0.08]">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-[#0C2B80] mb-2">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-black mb-2">
                   Deliverables Package Included
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {selectedProductModal.deliverables.map((item, dIdx) => (
-                    <div key={dIdx} className="flex items-center space-x-2 text-xs text-[#0C2B80]/85">
+                    <div key={dIdx} className="flex items-center space-x-2 text-xs text-black/85">
                       <CheckCircle2 className="w-3.5 h-3.5 text-[#3670FF] shrink-0" />
                       <span>{item}</span>
                     </div>
@@ -296,7 +296,7 @@ export const ProductsSection: React.FC = () => {
 
               {/* Modal Footer CTA */}
               <div className="mt-6 pt-4 border-t border-[#0C2B80]/[0.08] flex items-center justify-between">
-                <span className="text-xs font-mono text-[#0C2B80]/60">
+                <span className="text-xs font-mono text-black/60">
                   {selectedProductModal.pricingPlaceholder}
                 </span>
                 <button
@@ -305,7 +305,7 @@ export const ProductsSection: React.FC = () => {
                     setSelectedProductModal(null);
                     handleInquire(prod);
                   }}
-                  className="bg-[#F9D601] hover:bg-[#3670FF] text-[#0C2B80] hover:text-white px-6 py-2.5 rounded-xl text-xs font-bold tracking-tight flex items-center space-x-1.5 transition-all shadow-md cursor-pointer"
+                  className="bg-[#F9D601] hover:bg-[#3670FF] text-black hover:text-white px-6 py-2.5 rounded-xl text-xs font-bold tracking-tight flex items-center space-x-1.5 transition-all shadow-md cursor-pointer"
                 >
                   <span>Inquire for Deployment</span>
                   <ExternalLink className="w-3.5 h-3.5" />

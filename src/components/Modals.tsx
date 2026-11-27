@@ -113,7 +113,7 @@ export const Modals: React.FC<ModalsProps> = ({
                         <div className="text-[11px] text-white/60">{wallet.desc}</div>
                       </div>
                     </div>
-                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/10 group-hover:bg-neon-lime group-hover:text-[#0C2B80] transition-colors">
+                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-white/10 group-hover:bg-neon-lime group-hover:text-black transition-colors">
                       Connect
                     </span>
                   </button>
@@ -263,7 +263,7 @@ export const Modals: React.FC<ModalsProps> = ({
                 <button
                   type="submit"
                   disabled={checkingAirdrop}
-                  className="w-full py-3 rounded-2xl bg-neon-lime text-[#0C2B80] font-archivo text-xs font-extrabold uppercase hover:bg-[#8ee600] transition-colors flex items-center justify-center space-x-2"
+                  className="w-full py-3 rounded-2xl bg-neon-lime text-black font-archivo text-xs font-extrabold uppercase hover:bg-[#8ee600] transition-colors flex items-center justify-center space-x-2"
                 >
                   {checkingAirdrop ? (
                     <span>Querying On-Chain Records...</span>
@@ -293,7 +293,7 @@ export const Modals: React.FC<ModalsProps> = ({
                       alert('Claimed 4,850 $CLUB! Sent to your wallet.');
                       onClose();
                     }}
-                    className="mt-3 w-full py-2 bg-white text-royal-blue font-archivo text-xs font-bold rounded-xl hover:bg-neon-lime hover:text-[#0C2B80] transition-colors"
+                    className="mt-3 w-full py-2 bg-white text-royal-blue font-archivo text-xs font-bold rounded-xl hover:bg-neon-lime hover:text-black transition-colors"
                   >
                     Claim To Wallet Now
                   </button>

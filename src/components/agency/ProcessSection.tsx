@@ -17,27 +17,27 @@ export const ProcessSection: React.FC = () => {
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <section id="process" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-[#0C2B80] bg-transparent overflow-hidden">
+    <section id="process" className="relative w-full py-8 sm:py-10 md:py-12 px-4 sm:px-8 text-black bg-transparent overflow-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-6 sm:mb-8 pb-4 border-b border-[#0C2B80]/[0.15]">
           <div className="max-w-2xl">
             <div className="flex items-center space-x-3 mb-3">
-              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-[#0C2B80]/10 text-[#0C2B80] font-bold text-xs tracking-wider uppercase">
+              <FadeUpText delay={0.05} className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-[#0C2B80]/10 text-black font-bold text-xs tracking-wider uppercase">
                 <span>How We Work</span>
               </FadeUpText>
             </div>
 
             <MaskedLineReveal
               lines={["OUR 4-STAGE AGILE", "DEVELOPMENT PROCESS."]}
-              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#0C2B80] leading-[1.12]"
+              className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-black leading-[1.12]"
               delay={0.1}
             />
           </div>
 
           <div className="mt-4 md:mt-0 max-w-md">
             <FadeUpParagraph
-              className="text-sm sm:text-base text-[#0C2B80]/85 font-medium font-sans leading-relaxed"
+              className="text-sm sm:text-base text-black/85 font-medium font-sans leading-relaxed"
               delay={0.25}
             >
               A battle-tested methodology designed to <SlowHighlight>eliminate ambiguity</SlowHighlight>, <SlowHighlight>ship on time</SlowHighlight>, and maximize <SlowHighlight>commercial impact</SlowHighlight>.
@@ -81,10 +81,10 @@ export const ProcessSection: React.FC = () => {
                         <Icon className="w-5 h-5 stroke-[2] text-[#F9D601]" />
                       </div>
                       <div className="flex items-center space-x-1.5">
-                        <span className="text-[10px] font-bold uppercase tracking-wider bg-[#F9D601] text-[#0C2B80] px-2.5 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
+                        <span className="text-[10px] font-bold uppercase tracking-wider bg-[#F9D601] text-black px-2.5 py-1 rounded-full border border-[#0C2B80]/[0.08] shadow-sm">
                           {step.duration}
                         </span>
-                        <span className="font-sans font-bold text-xs text-[#0C2B80]/40">
+                        <span className="font-sans font-bold text-xs text-black/40">
                           {step.step}
                         </span>
                       </div>
@@ -93,24 +93,24 @@ export const ProcessSection: React.FC = () => {
                     {/* Heading */}
                     <MaskedLineReveal
                       lines={lines}
-                      className="font-sans text-lg sm:text-xl font-bold uppercase tracking-tight text-[#0C2B80] leading-[1.1]"
+                      className="font-sans text-lg sm:text-xl font-bold uppercase tracking-tight text-black leading-[1.1]"
                       delay={0.15}
                     />
 
                     {/* Description */}
-                    <p className="font-sans text-xs sm:text-[13px] text-[#0C2B80]/75 mt-2.5 leading-relaxed">
+                    <p className="font-sans text-xs sm:text-[13px] text-black/75 mt-2.5 leading-relaxed">
                       {step.description}
                     </p>
                   </div>
 
                   {/* Activities List */}
                   <div className="mt-6 pt-4 border-t border-[#0C2B80]/[0.08]">
-                    <div className="text-[10.5px] font-mono text-[#0C2B80]/60 uppercase tracking-wider font-semibold mb-2">
+                    <div className="text-[10.5px] font-mono text-black/60 uppercase tracking-wider font-semibold mb-2">
                       Key Activities
                     </div>
                     <ul className="space-y-1.5">
                       {step.activities.map((item, dIdx) => (
-                        <li key={dIdx} className="flex items-center space-x-2 text-xs text-[#0C2B80]/85">
+                        <li key={dIdx} className="flex items-center space-x-2 text-xs text-black/85">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#3670FF] shrink-0" />
                           <span>{item}</span>
                         </li>
